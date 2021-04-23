@@ -30,12 +30,15 @@ namespace RPG.Control{
         float timeSinceArrivedAtWaypoint = Mathf.Infinity;
         int currentWaypointIndex = 0;       // esta variavel diz qual e o meu proximo waypoint
 
-        private void Start() {
+        private void Awake()
+        {
             fighter = GetComponent<Fighter>();
             health = GetComponent<Health>();
-            mover  = GetComponent<Mover>();
+            mover = GetComponent<Mover>();
             player = GameObject.FindWithTag("Player");
+        }
 
+        private void Start() {
             //a posicao onde o guarda começa o jogo, é o que ele vai estar guardar, e a voltar para quando o player sai de range!:
             guardPosition = transform.position;
         }

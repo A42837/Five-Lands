@@ -16,16 +16,35 @@ namespace RPG.Stats
         [SerializeField] bool shouldUseModifiers = false;
 
         public event Action onLevelUp;
+        Experience experience;
 
         int currentLevel = 0;   //começa em zero de proposito para ter a certeza que vai para 1!
+
+        private void Awake()
+        {
+            experience = GetComponent<Experience>();
+        }
 
         private void Start()
         {
             currentLevel = CalculateLevel();
-            Experience experience = GetComponent<Experience>();
-            if(experience != null)
+            
+        }
+
+        private void OnEnable()
+        {
+            if (experience != null)
             {
                 experience.onExperienceGained += UpdateLevel;//quando ganho XP chamo o updateLevel
+            }
+        }
+
+        private void OnDisable()
+        {
+            //pode acontecer que dando disable a este script, continue a receber XP, para rpevenir isso retiro o Update da lista do onExperienceGained
+            if (experience != null)
+            {
+                experience.onExperienceGained -= UpdateLevel;//quando ganho XP chamo o updateLevel
             }
         }
 
