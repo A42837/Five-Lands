@@ -15,6 +15,7 @@ namespace RPG.Combat{
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
         [SerializeField] Weapon defaultWeapon = null;
+        [SerializeField] bool shouldUseModifiers = false;
 
         Health target;
         float timeSinceLastAttack = Mathf.Infinity;
@@ -118,12 +119,23 @@ namespace RPG.Combat{
             GetComponent<Animator>().SetTrigger("stopAttack");
         }
 
-        public IEnumerable<float> GetAdditiveModifier(Stat stat)
+        public IEnumerable<float> GetAdditiveModifiers(Stat stat)
         {
             //se o meu stat for o de damage:
             if(stat == Stat.Damage)
             {
                 yield return currentWeapon.GetDamage();
+            }
+        }
+
+        public IEnumerable<float> GetPercentageModifiers(Stat stat)
+        {
+
+
+            //se o meu stat for o de damage:
+            if (stat == Stat.Damage)
+            {
+                yield return currentWeapon.GetPercentageBonus();
             }
         }
 
@@ -144,6 +156,5 @@ namespace RPG.Combat{
             EquipWeapon(weapon);
         }
 
-        
     }
 }
