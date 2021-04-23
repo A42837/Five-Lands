@@ -31,11 +31,11 @@ namespace RPG.SceneManagement
             {
                 Load();
             }
-            if (Input.GetKeyDown(KeyCode.S))
+            if (Input.GetKeyDown(KeyCode.K))
             {
                 Save();
             }
-            if (Input.GetKeyDown(KeyCode.Delete))
+            if (Input.GetKeyDown(KeyCode.Tab))
             {
                 Delete();
             }
