@@ -19,7 +19,7 @@ namespace RPG.Control{
         Vector3 movement = Vector3.zero;
         public Camera cameraOrientation;
 
-        private void Start() {
+        private void Awake() {
             health = GetComponent<Health>();
             navMeshAgent = GetComponent<NavMeshAgent>();
         }
