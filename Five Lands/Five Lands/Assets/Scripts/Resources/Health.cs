@@ -11,7 +11,7 @@ namespace RPG.Resources{
     {
         [SerializeField] float regenerationPercentage = 70;
 
-        float healthPoints = -1f;
+        public float healthPoints = -1f;
 
         bool isDead = false;
 

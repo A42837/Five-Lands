@@ -10,8 +10,6 @@ namespace RPG.SceneManagement
 {
     public class Portal : MonoBehaviour
     {
-        
-
         //enum e uma drop down list no unity editor
         enum DestinationIdentifier
         {
@@ -26,6 +24,8 @@ namespace RPG.SceneManagement
         [SerializeField] float fadeOutTime = 1f;
         [SerializeField] float fadeInTime = 2f;
         [SerializeField] float fadeWaitTime = 0.5f;
+
+
         private void OnTriggerEnter(Collider other)
         {
       
@@ -43,7 +43,6 @@ namespace RPG.SceneManagement
                 yield break;
             }
 
-            
 
             DontDestroyOnLoad(gameObject);//tem que estar na root, nao pode destar agarrado a nada!
 
@@ -63,6 +62,7 @@ namespace RPG.SceneManagement
 
             Portal otherPortal = GetOtherPortal();  //o portal onde vou aparecer
             UpdatePlayer(otherPortal);
+            //UpdateCompanion(otherPortal);
 
             //checkpoint para a posicao do player
             wrapper.Save();
@@ -82,6 +82,15 @@ namespace RPG.SceneManagement
             player.transform.rotation = otherPortal.spawnPoint.rotation;
             player.GetComponent<NavMeshAgent>().enabled = true;
         }
+        /*private void UpdateCompanion(Portal otherPortal)
+        {
+            GameObject companion = GameObject.FindWithTag("Companion");
+            companion.GetComponent<NavMeshAgent>().enabled = false;
+            companion.GetComponent<NavMeshAgent>().Warp(otherPortal.spawnPoint.position);
+            companion.transform.position = otherPortal.spawnPoint.position;
+            companion.transform.rotation = otherPortal.spawnPoint.rotation;
+            companion.GetComponent<NavMeshAgent>().enabled = true;
+        }*/
 
         private Portal GetOtherPortal()
         {
@@ -91,7 +100,6 @@ namespace RPG.SceneManagement
                 if (portal.destination != destination) continue;
                 return portal;
             }
-
             return null;
         }
     }
