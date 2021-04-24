@@ -11,6 +11,23 @@ using RPG.Resources;
 namespace RPG.Control{
     public class PlayerController : MonoBehaviour
     {
+        enum CursorType
+        {
+            None,
+            Movement,
+            Combat
+        }
+
+        //este system serializable serve para o unity mostrar no editor. da jeito para fazer alterar coisas sem ter que abrir o visual studio
+        [System.Serializable]
+        struct CursorMapping
+        {
+            public CursorType type;
+            public Texture2D texture;
+            public Vector2 hotspot;
+        }
+        [SerializeField] CursorMapping[] cursorMappings = null;
+
         Health health;
         private float horizontal;
         private float H;
@@ -33,6 +50,8 @@ namespace RPG.Control{
             if( WASDMove() ) return;
             if (InteractWithMovement()) return;
             //print("Nothing to do ");
+
+            SetCursor(CursorType.None);
         }
 
         private bool InteractWithCombat()
@@ -50,12 +69,32 @@ namespace RPG.Control{
                 if(Input.GetMouseButton(0) ){
                     GetComponent<Fighter>().Attack(target.gameObject);
                 }
+                //mudar o cursor:
+                SetCursor(CursorType.Combat);
                 return true;
              }
              return false;
          }
 
-         private bool InteractWithMovement() {
+        private void SetCursor(CursorType type)
+        {
+            CursorMapping mapping = getCursorMapping(type);
+            Cursor.SetCursor(mapping.texture, mapping.hotspot, CursorMode.Auto);
+        }
+
+        private CursorMapping getCursorMapping(CursorType type)
+        {
+            foreach(CursorMapping mapping in cursorMappings)
+            {
+                if(mapping.type == type)
+                {
+                    return mapping;
+                }
+            }
+            return cursorMappings[0];
+        }
+
+        private bool InteractWithMovement() {
             RaycastHit hit;
             bool hastHit = Physics.Raycast(GetMouseRay(), out hit);  //vou ter informacao de onde carreguei na variavel hit!
 
@@ -63,6 +102,7 @@ namespace RPG.Control{
                 if(Input.GetMouseButton(0)){
                     GetComponent<Mover>().StartMoveAction(hit.point, 1f);
                 }
+                SetCursor(CursorType.Movement);
                 return true;
             }
             return false;
