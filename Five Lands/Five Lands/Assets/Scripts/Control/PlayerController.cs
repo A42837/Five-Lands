@@ -16,8 +16,7 @@ namespace RPG.Control
         {
             None,
             Movement,
-            Combat,
-            UI,
+            Combat
         }
 
         //este system serializable serve para o unity mostrar no editor. da jeito para fazer alterar coisas sem ter que abrir o visual studio
@@ -82,6 +81,7 @@ namespace RPG.Control
 
         private bool InteractWithUI()
         {
+<<<<<<< HEAD
 
             //da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol, por isso nao mexer!!
             if (  EventSystem.current.IsPointerOverGameObject())
@@ -90,6 +90,11 @@ namespace RPG.Control
                 return true;
             }
             return false;
+=======
+            
+            //return false;
+            return EventSystem.current.IsPointerOverGameObject();
+>>>>>>> parent of 88d240b (UI and cursor fixed)
         }
 
         private void SetCursor(CursorType type)
