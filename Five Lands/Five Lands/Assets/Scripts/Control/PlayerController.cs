@@ -1,14 +1,13 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.AI;
+﻿using UnityEngine.AI;
 using RPG.Combat;
 using RPG.Core;
 using RPG.Movement;
 using UnityEngine;
 using RPG.Resources;
+using UnityEngine.EventSystems;
 
-namespace RPG.Control{
+namespace RPG.Control
+{
     public class PlayerController : MonoBehaviour
     {
         enum CursorType
@@ -41,10 +40,16 @@ namespace RPG.Control{
             navMeshAgent = GetComponent<NavMeshAgent>();
         }
 
-        private void Update(){
+        private void Update()
+        {
+            //verificar se o rato esta em cima do UI:
+            if (InteractWithUI()) return ;
 
-            if (health.IsDead()) return;
-
+            if (health.IsDead())
+            {
+                SetCursor(CursorType.None);
+                return;
+            }
             //prioridades são: ataco primeiro, caso nao seja atacável, desloco-me para esse sitio
             if (InteractWithCombat()) return;
             if( WASDMove() ) return;
@@ -52,6 +57,13 @@ namespace RPG.Control{
             //print("Nothing to do ");
 
             SetCursor(CursorType.None);
+        }
+
+        private bool InteractWithUI()
+        {
+            
+            //return false;
+            return EventSystem.current.IsPointerOverGameObject();
         }
 
         private bool InteractWithCombat()
