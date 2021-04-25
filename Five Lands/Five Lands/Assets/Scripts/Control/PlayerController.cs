@@ -4,7 +4,9 @@ using RPG.Core;
 using RPG.Movement;
 using UnityEngine;
 using RPG.Resources;
+//este using UnityEngine.EventSystems; da erro aqui no visaul studio, mas funciona no unity, por isso nao mexer!!
 using UnityEngine.EventSystems;
+using System;
 
 namespace RPG.Control
 {
@@ -51,48 +53,44 @@ namespace RPG.Control
                 SetCursor(CursorType.None);
                 return;
             }
+            if (InteractWithComponent()) return;
             //prioridades são: ataco primeiro, caso nao seja atacável, desloco-me para esse sitio
-            if (InteractWithCombat()) return;
-            if( WASDMove() ) return;
+            if (WASDMove()) return;
             if (InteractWithMovement()) return;
             //print("Nothing to do ");
 
             SetCursor(CursorType.None);
         }
 
+        private bool InteractWithComponent()
+        {
+            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
+            foreach (RaycastHit hit in hits)
+            {
+                IRaycastable[] raycastables = hit.transform.GetComponents<IRaycastable>();
+                foreach (IRaycastable raycastable in raycastables)
+                {
+                    if (raycastable.HandleRaycast(this))
+                    {
+                        SetCursor(CursorType.Combat);
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
         private bool InteractWithUI()
         {
-            
-            //da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol
-            if(  EventSystem.current.IsPointerOverGameObject())
+
+            //da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol, por isso nao mexer!!
+            if (  EventSystem.current.IsPointerOverGameObject())
             {
                 SetCursor(CursorType.UI);
                 return true;
             }
             return false;
         }
-
-        private bool InteractWithCombat()
-         {
-            //throw new NotImplementedException();
-            RaycastHit[] hits = Physics.RaycastAll( GetMouseRay() );
-            foreach(RaycastHit hit in hits){
-                CombatTarget target =  hit.transform.GetComponent<CombatTarget>();
-                if(target == null) continue;
-                
-                if(!GetComponent<Fighter>().CanAttack(target.gameObject)){
-                    //se nao conseguir atacar, vou para o proximo target
-                    continue;
-                } 
-                if(Input.GetMouseButton(0) ){
-                    GetComponent<Fighter>().Attack(target.gameObject);
-                }
-                //mudar o cursor:
-                SetCursor(CursorType.Combat);
-                return true;
-             }
-             return false;
-         }
 
         private void SetCursor(CursorType type)
         {
