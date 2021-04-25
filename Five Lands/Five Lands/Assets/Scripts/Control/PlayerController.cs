@@ -82,6 +82,7 @@ namespace RPG.Control
         private bool InteractWithUI()
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
             //da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol, por isso nao mexer!!
             if (  EventSystem.current.IsPointerOverGameObject())
@@ -90,6 +91,11 @@ namespace RPG.Control
                 return true;
             }
             return false;
+=======
+            
+            //return false;
+            return EventSystem.current.IsPointerOverGameObject();
+>>>>>>> parent of 88d240b (UI and cursor fixed)
 =======
             
             //return false;
