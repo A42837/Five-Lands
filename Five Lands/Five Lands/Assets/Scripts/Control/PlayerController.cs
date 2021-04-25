@@ -4,19 +4,14 @@ using RPG.Core;
 using RPG.Movement;
 using UnityEngine;
 using RPG.Resources;
+//da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol
 using UnityEngine.EventSystems;
+using System;
 
 namespace RPG.Control
 {
     public class PlayerController : MonoBehaviour
     {
-        enum CursorType
-        {
-            None,
-            Movement,
-            Combat,
-            UI,
-        }
 
         //este system serializable serve para o unity mostrar no editor. da jeito para fazer alterar coisas sem ter que abrir o visual studio
         [System.Serializable]
@@ -51,13 +46,35 @@ namespace RPG.Control
                 SetCursor(CursorType.None);
                 return;
             }
+
+            if (InteractWithComponent()) return;
+
             //prioridades são: ataco primeiro, caso nao seja atacável, desloco-me para esse sitio
-            if (InteractWithCombat()) return;
             if( WASDMove() ) return;
             if (InteractWithMovement()) return;
             //print("Nothing to do ");
 
             SetCursor(CursorType.None);
+        }
+
+        //posso por exemplo  ter uma porta, que e um component, que reporta um icone diferente ! que responde a raycastable, da mesma maneira 
+        //que tenho o CombatTarget!
+        private bool InteractWithComponent()
+        {
+            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
+            foreach (RaycastHit hit in hits)
+            {
+                IRaycastable[] raycastables = hit.transform.GetComponents<IRaycastable>();
+                foreach (IRaycastable raycastable in raycastables)
+                {
+                    if (raycastable.HandleRaycast(this) )
+                    {
+                        SetCursor(raycastable.GetCursorType() );    //com o getter, posso distinguir o cursor entre atacar inimigos e apanhar pickups!
+                        return true;
+                    }
+                }
+            }
+            return false;
         }
 
         private bool InteractWithUI()
@@ -71,28 +88,6 @@ namespace RPG.Control
             }
             return false;
         }
-
-        private bool InteractWithCombat()
-         {
-            //throw new NotImplementedException();
-            RaycastHit[] hits = Physics.RaycastAll( GetMouseRay() );
-            foreach(RaycastHit hit in hits){
-                CombatTarget target =  hit.transform.GetComponent<CombatTarget>();
-                if(target == null) continue;
-                
-                if(!GetComponent<Fighter>().CanAttack(target.gameObject)){
-                    //se nao conseguir atacar, vou para o proximo target
-                    continue;
-                } 
-                if(Input.GetMouseButton(0) ){
-                    GetComponent<Fighter>().Attack(target.gameObject);
-                }
-                //mudar o cursor:
-                SetCursor(CursorType.Combat);
-                return true;
-             }
-             return false;
-         }
 
         private void SetCursor(CursorType type)
         {
