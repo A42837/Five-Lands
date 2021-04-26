@@ -155,3 +155,220 @@ System memory in use after: 70.4 MB.
 Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1369.
 Total: 1.606300 ms (FindLiveObjects: 0.148500 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.398700 ms  DeleteObjects: 0.013800 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 2839.213431 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplash.prefab
+  artifactKey: Guid(e49403f034d74ee44aa8a41b0ee4abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplash.prefab using Guid(e49403f034d74ee44aa8a41b0ee4abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2475102137a477624a7d0a0ed332c57c') in 0.244792 seconds
+  Import took 0.294529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Sewer_Water_01.prefab
+  artifactKey: Guid(11584a00ddf0d8645861ef68ab28d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Sewer_Water_01.prefab using Guid(11584a00ddf0d8645861ef68ab28d55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffe1e816dc2b58c85ad8ed84b628294f') in 0.336715 seconds
+  Import took 0.361074 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000511 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab
+  artifactKey: Guid(fb4e0b01a8eccf24c9e5ca4c30a9b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Prefabs/SM_Env_Water.prefab using Guid(fb4e0b01a8eccf24c9e5ca4c30a9b2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a835bf16304c991ad522bb54878325c9') in 0.118887 seconds
+  Import took 0.123220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Models/SM_Env_Sewer_Water_01.fbx
+  artifactKey: Guid(ac56c9953726bad4bad32d11c1de52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Models/SM_Env_Sewer_Water_01.fbx using Guid(ac56c9953726bad4bad32d11c1de52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd836a366ba201c747eaa2efef2870593') in 0.391435 seconds
+  Import took 0.394520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplatter.prefab
+  artifactKey: Guid(263867d4955e3644f9a1dfa779ab7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplatter.prefab using Guid(263867d4955e3644f9a1dfa779ab7d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d7d6c7329de9307157ee880e85a38b') in 0.011326 seconds
+  Import took 0.049938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/HolyShift/Materials/LowPolyWater.mat
+  artifactKey: Guid(dba33a2bf8b23400bacf323fc2816a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Materials/LowPolyWater.mat using Guid(dba33a2bf8b23400bacf323fc2816a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcdc540f76d02dd7ab57135504ddfe4') in 0.192698 seconds
+  Import took 0.209890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Sewer_Water_Corner_01.prefab
+  artifactKey: Guid(20de9fbb5c9d937409af9eb30c6264c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Prefabs/Environments/Floors/SM_Env_Sewer_Water_Corner_01.prefab using Guid(20de9fbb5c9d937409af9eb30c6264c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b808ba6c5d2febf02d06a2cfe6cc9b46') in 0.063990 seconds
+  Import took 0.079517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/HolyShift/Prefabs/Water.prefab
+  artifactKey: Guid(bc4f23d04e42f4b559542ad840db6530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HolyShift/Prefabs/Water.prefab using Guid(bc4f23d04e42f4b559542ad840db6530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eec80b6fa4e53cd50eb8134609e4c673') in 0.126374 seconds
+  Import took 0.155626 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd
+  artifactKey: Guid(5b5c5575fd4c74abd9f7b30862fb76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water/Textures/WaterFresnel.psd using Guid(5b5c5575fd4c74abd9f7b30862fb76a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a4e85b5d77d9742831da6a7892e073') in 0.771167 seconds
+  Import took 0.812435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Asset Packs/PolygonDungeon/Models/SM_Env_Sewer_Water_Corner_01.fbx
+  artifactKey: Guid(f945f5a5a9a0ddc48abd57b577b09088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeon/Models/SM_Env_Sewer_Water_Corner_01.fbx using Guid(f945f5a5a9a0ddc48abd57b577b09088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0fcd16465a5d92871606fb729a2137') in 0.020200 seconds
+  Import took 0.038471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/BrokenVector/UltimateDungeonPack/Materials/Water_Muddy.mat
+  artifactKey: Guid(a5e122a60536c4e4aa815feffacdfac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/UltimateDungeonPack/Materials/Water_Muddy.mat using Guid(a5e122a60536c4e4aa815feffacdfac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d395c4a5f10d7d63fe6abd4146b81d') in 0.276856 seconds
+  Import took 0.298543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplash.prefab
+  artifactKey: Guid(e49403f034d74ee44aa8a41b0ee4abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/SimpleFX/Prefabs/FX_WaterSplash.prefab using Guid(e49403f034d74ee44aa8a41b0ee4abfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2475102137a477624a7d0a0ed332c57c') in 0.006138 seconds
+  Import took 0.008394 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000665 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1416.
+Total: 2.126100 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.042100 ms MarkObjects: 1.831900 ms  DeleteObjects: 0.027400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000676 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.900 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.0 MB.
+System memory in use after: 74.1 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1416.
+Total: 1.801800 ms (FindLiveObjects: 0.157600 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.549800 ms  DeleteObjects: 0.049900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000669 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.179 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1416.
+Total: 2.809600 ms (FindLiveObjects: 0.246500 ms CreateObjectMapping: 0.043800 ms MarkObjects: 2.497900 ms  DeleteObjects: 0.019400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000643 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.239 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1416.
+Total: 2.133200 ms (FindLiveObjects: 0.353000 ms CreateObjectMapping: 0.069300 ms MarkObjects: 1.695600 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000592 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.845 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 891 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 74.1 MB.
+System memory in use after: 74.2 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 1416.
+Total: 19.122600 ms (FindLiveObjects: 0.188600 ms CreateObjectMapping: 0.068000 ms MarkObjects: 18.836200 ms  DeleteObjects: 0.026700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

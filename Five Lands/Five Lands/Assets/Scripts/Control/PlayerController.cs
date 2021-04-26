@@ -22,6 +22,7 @@ namespace RPG.Control
             public Vector2 hotspot;
         }
         [SerializeField] CursorMapping[] cursorMappings = null;
+        [SerializeField] float maxNavMeshProjectionDistance =1f;
 
         Health health;
         private float horizontal;
@@ -121,17 +122,35 @@ namespace RPG.Control
         }
 
         private bool InteractWithMovement() {
-            RaycastHit hit;
-            bool hastHit = Physics.Raycast(GetMouseRay(), out hit);  //vou ter informacao de onde carreguei na variavel hit!
+            //RaycastHit hit;
+            //bool hastHit = Physics.Raycast(GetMouseRay(), out hit);  //vou ter informacao de onde carreguei na variavel hit!
+
+            Vector3 target;
+            bool hastHit = RaycastNavMesh(out target);
 
             if (hastHit){
                 if(Input.GetMouseButton(0)){
-                    GetComponent<Mover>().StartMoveAction(hit.point, 1f);
+                    GetComponent<Mover>().StartMoveAction(target, 1f);
                 }
                 SetCursor(CursorType.Movement);
                 return true;
             }
             return false;
+        }
+
+        private bool RaycastNavMesh(out Vector3 target)
+        {
+            target = new Vector3();
+            RaycastHit hit;
+            bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
+            if (!hasHit) return false;  //caso nao tenha encontrado nada, posso fazer return
+
+            NavMeshHit navMeshHit;
+            bool hasCastToNavMesh = NavMesh.SamplePosition(hit.point, out navMeshHit, maxNavMeshProjectionDistance, NavMesh.AllAreas);
+            if (!hasCastToNavMesh) return false;
+
+            target = navMeshHit.position;
+            return true;
         }
 
         private static Ray GetMouseRay()
