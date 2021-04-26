@@ -77,6 +77,19 @@ namespace RPG.Control
             return false;
         }
 
+        RaycastHit[] RaycastAllSorted()
+        {
+            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
+            float[] distances = new float[hits.Length]; //vai ter as distancias de todos os objectos com que o raycast colide!
+            for(int i = 0; i < hits.Length; i++)
+            {
+                //por no array distances, a distance de cada objecto com que o ray collide, essa informacao esta em hits.distance!
+                distances[i] = hits[i].distance;
+            }
+            Array.Sort(distances, hits);    //ordenar o hits de acordo com as distances
+            return hits;
+        }
+
         private bool InteractWithUI()
         {
             
