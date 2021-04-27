@@ -3,7 +3,7 @@ using RPG.Combat;
 using RPG.Core;
 using RPG.Movement;
 using UnityEngine;
-using RPG.Resources;
+using RPG.Attributes;
 //da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol
 using UnityEngine.EventSystems;
 using System;
