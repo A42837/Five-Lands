@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.32699502, g: 0.28155, b: 0.4166108, a: 1}
+  m_IndirectSpecularColor: {r: 0.32734025, g: 0.2819696, b: 0.41689909, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -959,6 +959,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 9210781624998293216, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
   m_PrefabInstance: {fileID: 461430510}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &297487327 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+  m_PrefabInstance: {fileID: 461430510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &297487331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -972,6 +977,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1351115173}
+  projectile: {fileID: 6193368276448554515, guid: a7c8feeb55f534b4ca90181464a84f0b, type: 3}
+  mouth: {fileID: 1063058685}
 --- !u!1 &300908712
 GameObject:
   m_ObjectHideFlags: 3
@@ -1637,10 +1644,15 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 64.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.05
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9097271694897386088, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
 --- !u!1001 &468089765
 PrefabInstance:
@@ -2967,6 +2979,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4357968367342521539, guid: 2581c1e3e9e7a37498d8f9238cdcf7c1, type: 3}
   m_PrefabInstance: {fileID: 1026167049}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1063058684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1063058685}
+  m_Layer: 0
+  m_Name: mouth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1063058685
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1063058684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.217, z: 1.375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 297487327}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1074211797
 PrefabInstance:
   m_ObjectHideFlags: 0
