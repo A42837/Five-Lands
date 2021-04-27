@@ -6,6 +6,7 @@ using RPG.Core;
 using RPG.Saving;
 using RPG.Attributes;
 using RPG.Stats;
+using RPG.Companion;
 
 namespace RPG.Combat{
     public class Fighter : MonoBehaviour, IAction, ISaveable, IModifierProvider{
@@ -46,8 +47,12 @@ namespace RPG.Combat{
             }
             else
             {
-                GetComponent<Mover>().Cancel(); //para o movimento
-                AttackBehaviour();
+                //este IF e para excluir o caso do companion!
+                if(GetComponent<Companion_Behavior>() == null)
+                {
+                    GetComponent<Mover>().Cancel(); //para o movimento
+                    AttackBehaviour();
+                }
             }
         }
 
@@ -69,11 +74,13 @@ namespace RPG.Combat{
 
         //Animation Event, quando dou o soco!
         void Hit(){
+            //print("target spider--->" + target.name);
             if(target == null) return;
 
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
             if (currentWeapon.HasProjectile())
             {
+                //print("spider project!");
                 currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
             }
             else
@@ -84,6 +91,14 @@ namespace RPG.Combat{
         //outro envento de animacao, o nome mesmo da animacao e diferente dai ter que ter isto extra
         void Shoot()
         {
+            Hit();
+        }
+
+        //evento de animacao da spider
+        public void SpitVenom()
+        {
+            //print("spider called!");
+            target = GetComponent<Companion_Behavior>().GetTarget();
             Hit();
         }
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.32734025, g: 0.2819696, b: 0.41689909, a: 1}
+  m_IndirectSpecularColor: {r: 0.32699502, g: 0.28155, b: 0.4166108, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -964,6 +964,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
   m_PrefabInstance: {fileID: 461430510}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &297487328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297487326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66e0979f455f980439cb41c92dd8c1f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingLevel: 1
+  characterClass: 4
+  progression: {fileID: 11400000, guid: c10b19959c305b348850e760e5bb32c1, type: 2}
+  levelUpParticleEffect: {fileID: 0}
+  shouldUseModifiers: 0
+--- !u!114 &297487329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297487326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c157d4e777347174b9d25ad499875304, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeBetweenAttacks: 1
+  rightHandTransform: {fileID: 1063058685}
+  leftHandTransform: {fileID: 0}
+  defaultWeapon: {fileID: 11400000, guid: c193ff7a5498c754aa2a09a7fc0acdf1, type: 2}
+--- !u!114 &297487330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297487326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9b7bb9d4bebe0642b547717c384bf68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experiencePoints: 0
 --- !u!114 &297487331
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1600,6 +1646,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5333744564381866992, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: startingLevel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333744564381866992, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: levelUpParticleEffect
       value: 
       objectReference: {fileID: 7083582588877590807, guid: e8164030ec712e847b28c3e24af1c1b5, type: 3}
@@ -1645,11 +1695,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 64.4
+      value: 63.16
       objectReference: {fileID: 0}
     - target: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.y
       value: -0.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.88
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 9097271694897386088, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}

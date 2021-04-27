@@ -1,6 +1,7 @@
 using UnityEngine;
 using RPG.Attributes;
 using RPG.Combat;
+using RPG.Stats;
 
 namespace RPG.Companion
 {
@@ -63,6 +64,11 @@ namespace RPG.Companion
         }
 
 
+        public Health GetTarget()
+        {
+            return targetHealth;
+        }
+
         /*void Update()
         {
             if (!isAttacking)
@@ -121,14 +127,18 @@ namespace RPG.Companion
         {
             GetComponent<Animator>().SetFloat("Speed", 0);
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(target.transform.position - transform.position), rotSpeed * Time.deltaTime);
-            GetComponent<Animator>().SetTrigger("Attack");
+            GetComponent<Animator>().SetTrigger("attack");
         }
 
+        /*
+         * para a aranha conseguir ganhar experiencia é preciso usar o fighter e por isso tive que la este metodo. acrescentei um getter para por o target
         public void SpitVenom()
         {
             Projectile projectileInstance = Instantiate(projectile, mouth.position, Quaternion.identity);
-            projectileInstance.setTarget(targetHealth, target, 0f);
+            float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
+            projectileInstance.setTarget(targetHealth, target, damage);
         }
+        */
 
     }
 }

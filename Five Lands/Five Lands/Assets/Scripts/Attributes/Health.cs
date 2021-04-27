@@ -51,6 +51,7 @@ namespace RPG.Attributes{
             healthPoints = Mathf.Max(healthPoints, regenHealthPoints);
         }
 
+        //instigator e o tropa que esta a atacar !
         public void TakeDamage(GameObject instigator, float damage){
             print(gameObject.name + " took damage: " + damage);
 
@@ -100,6 +101,7 @@ namespace RPG.Attributes{
 
         private void AwardExperience(GameObject instigator)
         {
+            print("Award XP called!");
             Experience experience = instigator.GetComponent<Experience>();
             if (experience == null) return;
 
