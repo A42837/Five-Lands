@@ -2216,77 +2216,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4426827916527348, guid: 139cfd9b396704e9caead448f0da6099, type: 3}
   m_PrefabInstance: {fileID: 284558486}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &297487326 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9210781624998293216, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-  m_PrefabInstance: {fileID: 461430510}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &297487327 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-  m_PrefabInstance: {fileID: 461430510}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &297487328
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297487326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66e0979f455f980439cb41c92dd8c1f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingLevel: 1
-  characterClass: 4
-  progression: {fileID: 11400000, guid: c10b19959c305b348850e760e5bb32c1, type: 2}
-  levelUpParticleEffect: {fileID: 7083582588877590807, guid: e8164030ec712e847b28c3e24af1c1b5, type: 3}
-  shouldUseModifiers: 0
---- !u!114 &297487329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297487326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c157d4e777347174b9d25ad499875304, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeBetweenAttacks: 1
-  rightHandTransform: {fileID: 1063058685}
-  leftHandTransform: {fileID: 0}
-  defaultWeapon: {fileID: 11400000, guid: c193ff7a5498c754aa2a09a7fc0acdf1, type: 2}
---- !u!114 &297487330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297487326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9b7bb9d4bebe0642b547717c384bf68, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  experiencePoints: 0
---- !u!114 &297487331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 297487326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6403fd12e1d89414f92bb370416f0f9b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1351115173}
-  projectile: {fileID: 6193368276448554515, guid: a7c8feeb55f534b4ca90181464a84f0b, type: 3}
-  mouth: {fileID: 1063058685}
 --- !u!1 &300908712
 GameObject:
   m_ObjectHideFlags: 3
@@ -3259,36 +3188,7 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -10.513569
       objectReference: {fileID: 0}
-    - target: {fileID: 9097271694897386088, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-      propertyPath: hitFX
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9210781624998293216, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9210781624998293216, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-      propertyPath: m_TagString
-      value: Companion
-      objectReference: {fileID: 0}
-    - target: {fileID: 9211913622399186965, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-      propertyPath: m_BaseOffset
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 63.16
-      objectReference: {fileID: 0}
-    - target: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 9212117811971822364, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 6.5
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 9097271694897386088, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
 --- !u!1001 &467151707
 PrefabInstance:
@@ -6999,36 +6899,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4648758416409770, guid: e292c3fb8dddf4761919031c71c29356, type: 3}
   m_PrefabInstance: {fileID: 1053037035}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1063058684
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1063058685}
-  m_Layer: 0
-  m_Name: mouth
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1063058685
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1063058684}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.217, z: 1.375}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 297487327}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1064970110
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8967,11 +8837,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 247445a04d6877e41b5320267dec896d, type: 3}
---- !u!4 &1351115173 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2755992188721284800, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
-  m_PrefabInstance: {fileID: 461430510}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1355285361
 PrefabInstance:
   m_ObjectHideFlags: 0
