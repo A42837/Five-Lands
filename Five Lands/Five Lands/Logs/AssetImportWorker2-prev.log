@@ -1,0 +1,451 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'en' Physical Memory: 8130 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51150
+Successfully changed project path to: C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
+C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 70.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   
+    VRAM:     1998 MB
+    Driver:   27.21.14.5671
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56416
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002708 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 101.88 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.082 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001308 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.03 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.477 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2160 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.3 MB.
+System memory in use after: 121.4 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.647300 ms (FindLiveObjects: 0.456800 ms CreateObjectMapping: 0.130000 ms MarkObjects: 1.894600 ms  DeleteObjects: 0.164000 ms)
+
+========================================================================
+Received Prepare
+Switching render pipeline 00000000000000000000000000000000 -> e9d3ef568c2908a458d417fd7e6c1617
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 49 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.4 MB.
+System memory in use after: 79.6 MB.
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 2.064200 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.099000 ms MarkObjects: 1.691300 ms  DeleteObjects: 0.033100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(e9d3ef568c2908a458d417fd7e6c1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset.asset using Guid(e9d3ef568c2908a458d417fd7e6c1617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87940567ebaa607a9b4cf8de6be13031') in 0.118311 seconds
+  Import took 0.123180 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003580 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(0c0249320019f0a4d942efc6ae2080a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(0c0249320019f0a4d942efc6ae2080a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '374cf8092c6216e784201c07d8b0a8e7') in 0.010579 seconds
+  Import took 0.017386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 166.829873 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(4303f2d7524894269a34dcc83d031268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(4303f2d7524894269a34dcc83d031268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type2 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type1 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type1 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'b6e6288d47806f16cb32884847b18026') in 2.085343 seconds
+  Import took 2.094453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 120.619185 seconds.
+  path: Assets/New Terrain Material.mat
+  artifactKey: Guid(14918a7fd5e2642c78c59d06df761292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain Material.mat using Guid(14918a7fd5e2642c78c59d06df761292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd47dc2e133bd5dab4fd5abac9fb9ae3') in 0.305083 seconds
+  Import took 0.312864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(0c0249320019f0a4d942efc6ae2080a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(0c0249320019f0a4d942efc6ae2080a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757e6227d16dd0f1302cde236e839475') in 0.008044 seconds
+  Import took 0.016190 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013611 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.225 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2101 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.8 MB.
+System memory in use after: 127.0 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 6.277100 ms (FindLiveObjects: 0.452900 ms CreateObjectMapping: 0.164200 ms MarkObjects: 5.632500 ms  DeleteObjects: 0.025600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024241 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.481 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.4 MB.
+System memory in use after: 126.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 6.400300 ms (FindLiveObjects: 0.688300 ms CreateObjectMapping: 0.384700 ms MarkObjects: 5.294300 ms  DeleteObjects: 0.028200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 497.667826 seconds.
+  path: Assets/Scripts/Attributes/Health.cs
+  artifactKey: Guid(05e4244645a79af45ba5602ac3b896d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Attributes/Health.cs using Guid(05e4244645a79af45ba5602ac3b896d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c5b0b600a07c6b52bc0fa6915e0b078') in 0.067937 seconds
+  Import took 0.076142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 572.731506 seconds.
+  path: Assets/TerrainAldeia.asset
+  artifactKey: Guid(4303f2d7524894269a34dcc83d031268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainAldeia.asset using Guid(4303f2d7524894269a34dcc83d031268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type2 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type1 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type1 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: 'bb971aeff8b3e82495fb2d47e40fd4c0') in 0.542045 seconds
+  Import took 0.552327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 441.038500 seconds.
+  path: Assets/TerrainAldeia.asset
+  artifactKey: Guid(4303f2d7524894269a34dcc83d031268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainAldeia.asset using Guid(4303f2d7524894269a34dcc83d031268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree Type2 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type1 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type1 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type2 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type4 05 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type0 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type3 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 04 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 03 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+The tree Tree Type7 01 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+
+ -> (artifact id: '2e1e955887e65663c79ac6baf2ecef54') in 0.893248 seconds
+  Import took 0.913197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/TerrainAldeiaMat.mat
+  artifactKey: Guid(14918a7fd5e2642c78c59d06df761292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainAldeiaMat.mat using Guid(14918a7fd5e2642c78c59d06df761292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5bfb7b7206968379d664fbd698557d') in 0.644643 seconds
+  Import took 0.649252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.124025 seconds.
+  path: Assets/Terrains
+  artifactKey: Guid(8c9c345108c4e1042ad005465311a137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrains using Guid(8c9c345108c4e1042ad005465311a137) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba87168d78116779170147c554b888b9') in 0.018392 seconds
+  Import took 0.033939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.681721 seconds.
+  path: Assets/Scenes/Sandbox/NavMesh.asset
+  artifactKey: Guid(ccb995b9be08f3342bdad44e7a660c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox/NavMesh.asset using Guid(ccb995b9be08f3342bdad44e7a660c12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6f68f73888b4d04898db098cd88d53') in 0.011143 seconds
+  Import took 0.016461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031828 seconds.
+  path: Assets/Scenes/Sandbox/Sandbox Terrain.asset
+  artifactKey: Guid(8af1bf79349796541b4a76fb0e7b4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox/Sandbox Terrain.asset using Guid(8af1bf79349796541b4a76fb0e7b4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8933ce99c242f07d80063edb77008b51') in 0.088226 seconds
+  Import took 0.093744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Scenes/Sandbox/TerrainData_756d8767-fc6b-4dda-bbcb-867e67ccf145.asset
+  artifactKey: Guid(9d0454781fe1c78469bafd19eb94c6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox/TerrainData_756d8767-fc6b-4dda-bbcb-867e67ccf145.asset using Guid(9d0454781fe1c78469bafd19eb94c6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7a5147bc939c814218f017a93400ba') in 0.030017 seconds
+  Import took 0.035942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Scenes/Sandbox/Sandbox Terrain.asset
+  artifactKey: Guid(8af1bf79349796541b4a76fb0e7b4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox/Sandbox Terrain.asset using Guid(8af1bf79349796541b4a76fb0e7b4d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8933ce99c242f07d80063edb77008b51') in 0.028469 seconds
+  Import took 0.033643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Scenes/Sandbox/TerrainData_756d8767-fc6b-4dda-bbcb-867e67ccf145.asset
+  artifactKey: Guid(9d0454781fe1c78469bafd19eb94c6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox/TerrainData_756d8767-fc6b-4dda-bbcb-867e67ccf145.asset using Guid(9d0454781fe1c78469bafd19eb94c6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e7a5147bc939c814218f017a93400ba') in 0.021123 seconds
+  Import took 0.026532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.493985 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(ddfd1eeb63b2e284b93d25877be81361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(ddfd1eeb63b2e284b93d25877be81361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccdd9553c337421cf0885d54f86799ea') in 0.112542 seconds
+  Import took 0.137941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.217944 seconds.
+  path: Assets/Scenes/Sandbox
+  artifactKey: Guid(a1c8710bd5d403d4486d30b6e4b4656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox using Guid(a1c8710bd5d403d4486d30b6e4b4656f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0556cf0edd4457301f0b2fca3d97822') in 0.030380 seconds
+  Import took 0.049718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.487364 seconds.
+  path: Assets/Scenes/SandboxSecretArea
+  artifactKey: Guid(20ddcfbf45351a145aaedd74720211ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandboxSecretArea using Guid(20ddcfbf45351a145aaedd74720211ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1638efbfb7b78852aad9e9a54550b09') in 0.012870 seconds
+  Import took 0.036345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.884774 seconds.
+  path: Assets/Scenes/SandboxSecretArea/New Terrain.asset
+  artifactKey: Guid(199eb6a3fd849ab47b47a06957cca134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandboxSecretArea/New Terrain.asset using Guid(199eb6a3fd849ab47b47a06957cca134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f06e56ebb57fa18ad0d6e2e1fac603b') in 0.029222 seconds
+  Import took 0.034422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.016237 seconds.
+  path: Assets/Scenes/SandboxSecretArea/SandboxSecretTerrain.asset
+  artifactKey: Guid(199eb6a3fd849ab47b47a06957cca134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SandboxSecretArea/SandboxSecretTerrain.asset using Guid(199eb6a3fd849ab47b47a06957cca134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d4889361fcc48a4b5ba18af88896663') in 0.030872 seconds
+  Import took 0.039166 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001747 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 126.6 MB.
+System memory in use after: 126.9 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2800.
+Total: 2.799300 ms (FindLiveObjects: 0.302600 ms CreateObjectMapping: 0.133800 ms MarkObjects: 2.342400 ms  DeleteObjects: 0.018300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 401.341004 seconds.
+  path: Assets/Game/Core/Companion.prefab
+  artifactKey: Guid(fdfcec442c7c6534ca9618819da64975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Core/Companion.prefab using Guid(fdfcec442c7c6534ca9618819da64975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce6efdedec483d8dcb173dec1183b2e') in 1.058117 seconds
+  Import took 1.137812 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003378 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2093 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 140.8 MB.
+System memory in use after: 141.0 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2837.
+Total: 2.814300 ms (FindLiveObjects: 0.325300 ms CreateObjectMapping: 0.115400 ms MarkObjects: 2.347200 ms  DeleteObjects: 0.024700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
