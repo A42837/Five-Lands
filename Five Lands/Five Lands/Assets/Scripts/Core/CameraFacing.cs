@@ -6,8 +6,7 @@ namespace RPG.Core
 {
     public class CameraFacing : MonoBehaviour
     {
-
-        private void Update()
+        private void LateUpdate()
         {
             //por o texto sempre a apontar para a camera activa ! funciona para ambas as cameras
             transform.forward = Camera.main.transform.forward;

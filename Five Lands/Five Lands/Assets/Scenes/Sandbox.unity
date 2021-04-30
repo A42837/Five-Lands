@@ -1156,6 +1156,14 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3703669494583583996, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
   m_PrefabInstance: {fileID: 461430510}
   m_PrefabAsset: {fileID: 0}
+--- !u!81 &159912576
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 159912575}
+  m_Enabled: 1
 --- !u!114 &159912577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3092,6 +3100,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2414161037582081932, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: d83f72d93673c6f4d960fa8d405803e0, type: 2}
     - target: {fileID: 2755992188721284800, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.x
       value: 65.1

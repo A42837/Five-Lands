@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.AI;
 using RPG.SceneManagent;
+using RPG.Control;
 
 namespace RPG.SceneManagement
 {
@@ -47,15 +48,21 @@ namespace RPG.SceneManagement
             DontDestroyOnLoad(gameObject);//tem que estar na root, nao pode destar agarrado a nada!
 
             Fader fader = FindObjectOfType<Fader>();
+            SavingWrapper wrapper = FindObjectOfType<SavingWrapper>();
+            //encontrar o current player e tirar controlo ao player quando entra no portal
+            PlayerController playerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
+            playerController.enabled = false;
 
             yield return fader.FadeOut(fadeOutTime);
 
             //Save current level
-            SavingWrapper wrapper = FindObjectOfType<SavingWrapper>();
             wrapper.Save();
 
             //SceneManager.LoadScene(sceneToLoad);    
             yield return SceneManager.LoadSceneAsync(sceneToLoad);  //faz o load da cena assincronamente e quando acabar retorna!
+            //encontrar o novo player na nova scene e tirar o controlo
+            PlayerController newPlayerController = GameObject.FindWithTag("Player").GetComponent<PlayerController>();
+            newPlayerController.enabled = false;
 
             //Load current Level
             wrapper.Load();
@@ -69,7 +76,9 @@ namespace RPG.SceneManagement
 
             yield return new WaitForSeconds(fadeWaitTime);  //esperar que a camera fique fixa!
             yield return fader.FadeIn(fadeInTime);
-            
+
+            //agora que os fades ja aconteceram todos, posso dar controlo ao novo player na nova scene
+            newPlayerController.enabled = true;
             Destroy(gameObject);
         }
 
