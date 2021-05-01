@@ -7,6 +7,8 @@ using RPG.Saving;
 using RPG.Attributes;
 using RPG.Stats;
 using RPG.Companion;
+using GameDevTV.Utils;
+using System;
 
 namespace RPG.Combat{
     public class Fighter : MonoBehaviour, IAction, ISaveable, IModifierProvider{
@@ -19,20 +21,36 @@ namespace RPG.Combat{
 
         Health target;
         float timeSinceLastAttack = Mathf.Infinity;
-        WeaponConfig currentWeapon = null;
+        WeaponConfig currentWeaponConfig;
+
+        LazyValue<Weapon> currentWeapon;
+
+        private void Awake()
+        {
+            currentWeaponConfig = defaultWeapon;
+            currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
+        }
+
+        private Weapon SetupDefaultWeapon()
+        {
+            return AttachWeapon(defaultWeapon);
+        }
 
         private void Start()
         {
-            if (currentWeapon == null) {
-                EquipWeapon(defaultWeapon);
-            }
+            currentWeapon.ForceInit();
         }
 
         public void EquipWeapon(WeaponConfig weapon)
         {
-            currentWeapon = weapon; //o current weapon e o weapon que eu quero equipar!
+            currentWeaponConfig = weapon; //o current weapon e o weapon que eu quero equipar!
+            currentWeapon.value = AttachWeapon(weapon);
+        }
+
+        private Weapon AttachWeapon(WeaponConfig weapon)
+        {
             Animator animator = GetComponent<Animator>();
-            weapon.Spawn(rightHandTransform, leftHandTransform, animator);
+            return weapon.Spawn(rightHandTransform, leftHandTransform, animator);
         }
 
         private void Update(){
@@ -78,10 +96,16 @@ namespace RPG.Combat{
             if(target == null) return;
 
             float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
-            if (currentWeapon.HasProjectile())
+
+            if(currentWeapon.value != null)
+            {
+                currentWeapon.value.OnHit();
+            }
+
+            if (currentWeaponConfig.HasProjectile())
             {
                 //print("spider project!");
-                currentWeapon.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
+                currentWeaponConfig.LaunchProjectile(rightHandTransform, leftHandTransform, target, gameObject, damage);
             }
             else
             {
@@ -104,7 +128,7 @@ namespace RPG.Combat{
 
         private bool GetIsInRange()
         {
-            return Vector3.Distance(transform.position, target.transform.position) < currentWeapon.GetRange();
+            return Vector3.Distance(transform.position, target.transform.position) < currentWeaponConfig.GetRange();
         }
 
         public bool CanAttack(GameObject combatTarget){
@@ -138,7 +162,7 @@ namespace RPG.Combat{
             //se o meu stat for o de damage:
             if(stat == Stat.Damage)
             {
-                yield return currentWeapon.GetDamage();
+                yield return currentWeaponConfig.GetDamage();
             }
         }
 
@@ -149,7 +173,7 @@ namespace RPG.Combat{
             //se o meu stat for o de damage:
             if (stat == Stat.Damage)
             {
-                yield return currentWeapon.GetPercentageBonus();
+                yield return currentWeaponConfig.GetPercentageBonus();
             }
         }
 
@@ -160,7 +184,7 @@ namespace RPG.Combat{
 
         public object CaptureState()
         {
-            return currentWeapon.name;
+            return currentWeaponConfig.name;
         }
 
         public void RestoreState(object state)

@@ -6,6 +6,7 @@ using RPG.Stats;
 using RPG.Core;
 using System;
 using UnityEngine.Events;
+using GameDevTV.Utils;
 
 namespace RPG.Attributes{
     public class Health : MonoBehaviour, ISaveable
@@ -19,7 +20,8 @@ namespace RPG.Attributes{
         {
         }
 
-        float healthPoints = -1f;
+        //este lazy value garante-me que as variaveis são chamadas depois do awake, mas antes do start, ou seja, antes da sua primeira utilização!
+        LazyValue<float> healthPoints;
 
         bool isDead = false;
 
@@ -27,12 +29,22 @@ namespace RPG.Attributes{
             return isDead;
         }
 
+        private void Awake()
+        {
+            //os healthpoints so vao ser definidos pela funcao getInityialHealth, quando for possivel chamar essa mesma funcao
+            healthPoints = new LazyValue<float>(GetInitialHealth);
+
+        }
+
+        private float GetInitialHealth()
+        {
+            return GetComponent<BaseStats>().GetStat(Stat.Health);
+        }
+
         private void Start()
         {
-            if (healthPoints < 0)
-            {
-                healthPoints = GetComponent<BaseStats>().GetStat(Stat.Health);
-            }
+            //este force init e para caso quando o start e chamado o healthpooints ainda não ter sido chamado, vou inicializa-lo agora!
+            healthPoints.ForceInit();
             
         }
 
@@ -49,16 +61,16 @@ namespace RPG.Attributes{
         private void RegenerateHealth()
         {
             float regenHealthPoints = GetComponent<BaseStats>().GetStat(Stat.Health) * (regenerationPercentage / 100);
-            healthPoints = Mathf.Max(healthPoints, regenHealthPoints);
+            healthPoints.value = Mathf.Max(healthPoints.value, regenHealthPoints);
         }
 
         //instigator e o tropa que esta a atacar !
         public void TakeDamage(GameObject instigator, float damage){
             print(gameObject.name + " took damage: " + damage);
 
-            healthPoints = Mathf.Max(healthPoints - damage, 0);
+            healthPoints.value = Mathf.Max(healthPoints.value - damage, 0);
             takeDamage.Invoke(damage);        //usar os UnityEvents! estão definidos no editor !
-            if (healthPoints == 0)
+            if (healthPoints.value == 0)
             {
                 onDie.Invoke();
                 Die();
@@ -74,7 +86,7 @@ namespace RPG.Attributes{
 
         public float GetHealthPoints()
         {
-            return healthPoints;
+            return healthPoints.value;
         }
 
         public float GetMaxHealthPoints()
@@ -90,7 +102,7 @@ namespace RPG.Attributes{
 
         public float GetFraction()
         {
-            return healthPoints / GetComponent<BaseStats>().GetStat(Stat.Health);
+            return healthPoints.value / GetComponent<BaseStats>().GetStat(Stat.Health);
         }
 
         private void Die(){
@@ -113,15 +125,15 @@ namespace RPG.Attributes{
 
         public object CaptureState()
         {
-            return healthPoints;
+            return healthPoints.value;
         }
 
 
         public void RestoreState(object state)
         {
             //aqui o state vai ser um float, logo posso fazer este cast
-            healthPoints = (float)state;
-            if (healthPoints == 0)
+            healthPoints.value = (float)state;
+            if (healthPoints.value == 0)
             {
                 Die();
             }

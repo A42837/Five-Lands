@@ -6,6 +6,7 @@ using RPG.Core;
 using RPG.Movement;
 using UnityEngine;
 using RPG.Attributes;
+using GameDevTV.Utils;
 
 namespace RPG.Control{
     public class AIController : MonoBehaviour{
@@ -25,7 +26,7 @@ namespace RPG.Control{
         Mover mover;
 
         //estados dos inimigos: guardar a localização inicial, suspeitar e patrulha
-        Vector3 guardPosition;
+        LazyValue<Vector3> guardPosition;
         float timeSinceLastSawPlayer = Mathf.Infinity;
         float timeSinceArrivedAtWaypoint = Mathf.Infinity;
         int currentWaypointIndex = 0;       // esta variavel diz qual e o meu proximo waypoint
@@ -36,11 +37,18 @@ namespace RPG.Control{
             health = GetComponent<Health>();
             mover = GetComponent<Mover>();
             player = GameObject.FindWithTag("Player");
+
+            guardPosition = new LazyValue<Vector3>(GetGuardPosition);
+        }
+
+        private Vector3 GetGuardPosition()
+        {
+            return transform.position;
         }
 
         private void Start() {
             //a posicao onde o guarda começa o jogo, é o que ele vai estar guardar, e a voltar para quando o player sai de range!:
-            guardPosition = transform.position;
+            guardPosition.ForceInit();
         }
 
         private void Update()
@@ -78,7 +86,7 @@ namespace RPG.Control{
 
         private void PatrolBehaviour()
         {
-            Vector3 nextPosition = guardPosition;
+            Vector3 nextPosition = guardPosition.value;
 
             if(PatrolPath != null){
                 if(AtWaypoint()){

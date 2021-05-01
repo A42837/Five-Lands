@@ -1,3 +1,4 @@
+using GameDevTV.Utils;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -18,16 +19,17 @@ namespace RPG.Stats
         public event Action onLevelUp;
         Experience experience;
 
-        int currentLevel = 0;   //começa em zero de proposito para ter a certeza que vai para 1!
+        LazyValue<int>currentLevel;   //começa em zero de proposito para ter a certeza que vai para 1!
 
         private void Awake()
         {
             experience = GetComponent<Experience>();
+            currentLevel = new LazyValue<int>(CalculateLevel);
         }
 
         private void Start()
         {
-            currentLevel = CalculateLevel();
+            currentLevel.ForceInit();
             
         }
 
@@ -52,9 +54,9 @@ namespace RPG.Stats
         private void UpdateLevel()
         {
             int newLevel = CalculateLevel();
-            if (newLevel > currentLevel)
+            if (newLevel > currentLevel.value)
             {
-                currentLevel = newLevel;
+                currentLevel.value = newLevel;
                 LevelUpEffect();
                 onLevelUp();
             }
@@ -129,11 +131,8 @@ namespace RPG.Stats
 
         public int GetLevel()
         {
-            if(currentLevel < 1)
-            {
-                currentLevel = CalculateLevel();
-            }
-            return currentLevel;
+            //nao preciso de verificar se este valor ja foi inicializado pois o lazy value garante-me isso!
+            return currentLevel.value;
         }
         
     }
