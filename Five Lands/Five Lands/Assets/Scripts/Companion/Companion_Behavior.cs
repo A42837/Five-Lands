@@ -2,6 +2,7 @@ using UnityEngine;
 using RPG.Attributes;
 using RPG.Combat;
 using RPG.Stats;
+using UnityEngine.AI;
 
 namespace RPG.Companion
 {
@@ -20,11 +21,13 @@ namespace RPG.Companion
 
         GameObject[] enemies;
         GameObject target;
+        NavMeshAgent navMeshAgent;
 
 
         void Start()
         {
             enemies = GameObject.FindGameObjectsWithTag("ENEMY");
+            navMeshAgent = GetComponent<NavMeshAgent>();
         }
 
         void Update()
@@ -47,7 +50,12 @@ namespace RPG.Companion
 
                 if (Vector3.Distance(transform.position, player.position) > 2) Follow();
 
-                else GetComponent<Animator>().SetFloat("Speed", 0);
+                else
+                {
+                    GetComponent<Animator>().SetFloat("Speed", 0);
+                    navMeshAgent.isStopped = true;
+
+                }
             }
 
             else if (isTargetAlive)
@@ -104,7 +112,7 @@ namespace RPG.Companion
             }
         }*/
 
-
+        /*
         private void Follow()
         {
             //LookAt
@@ -113,6 +121,18 @@ namespace RPG.Companion
             transform.position += transform.forward * moveSpeed * Time.deltaTime;
             GetComponent<Animator>().SetFloat("Speed", moveSpeed);
         }
+        */
+        private void Follow()
+        {
+            //LookAt
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(player.position - transform.position), rotSpeed * Time.deltaTime);
+            //Move
+            navMeshAgent.destination = player.position;
+            navMeshAgent.speed = moveSpeed;
+            navMeshAgent.isStopped = false;
+            GetComponent<Animator>().SetFloat("Speed", moveSpeed);
+        }
+
 
         private void Chase()
         {
