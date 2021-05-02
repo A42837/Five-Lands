@@ -36,6 +36,11 @@ namespace RPG.Attributes{
 
         }
 
+        public void Heal(float healthToRestore)
+        {
+            healthPoints.value = Mathf.Min(healthPoints.value + healthToRestore, GetMaxHealthPoints() );
+        }
+
         private float GetInitialHealth()
         {
             return GetComponent<BaseStats>().GetStat(Stat.Health);
@@ -66,7 +71,7 @@ namespace RPG.Attributes{
 
         //instigator e o tropa que esta a atacar !
         public void TakeDamage(GameObject instigator, float damage){
-            print(gameObject.name + " took damage: " + damage);
+            //print(gameObject.name + " took damage: " + damage);
 
             healthPoints.value = Mathf.Max(healthPoints.value - damage, 0);
             takeDamage.Invoke(damage);        //usar os UnityEvents! estão definidos no editor !
