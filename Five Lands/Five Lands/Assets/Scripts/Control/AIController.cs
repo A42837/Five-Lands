@@ -13,6 +13,7 @@ namespace RPG.Control{
 
         [SerializeField] float chaseDistance = 5f;
         [SerializeField] float suspicionTime = 5f;
+        [SerializeField] float aggroCooldownTime = 3f;
         //este patrol path tem que ser puxado para o inimigo na cena ! manualmente
         [SerializeField] PatrolPath PatrolPath;
         [SerializeField] float waypointTolerance = 1f;
@@ -27,8 +28,10 @@ namespace RPG.Control{
 
         //estados dos inimigos: guardar a localização inicial, suspeitar e patrulha
         LazyValue<Vector3> guardPosition;
+        //mathf infinity como valor inicial para que quando começa, é como se nunca os tivesse visto!
         float timeSinceLastSawPlayer = Mathf.Infinity;
         float timeSinceArrivedAtWaypoint = Mathf.Infinity;
+        float timeSinceAggrevated = Mathf.Infinity;
         int currentWaypointIndex = 0;       // esta variavel diz qual e o meu proximo waypoint
 
         private void Awake()
@@ -55,7 +58,7 @@ namespace RPG.Control{
         {
 
             if (health.IsDead()) return;
-            if (InAttackRangeOfPlayer(player) && fighter.CanAttack(player))
+            if (IsAggrevated(player) && fighter.CanAttack(player))
             {
                 //ATACK STATE
                 //print(gameObject.name + " Chaseeee!");
@@ -78,10 +81,16 @@ namespace RPG.Control{
             UpdateTimers();
         }
 
+        public void Aggrevate()
+        {
+            timeSinceAggrevated = 0;
+        }
+
         private void UpdateTimers()
         {
             timeSinceLastSawPlayer += Time.deltaTime;
             timeSinceArrivedAtWaypoint += Time.deltaTime;
+            timeSinceAggrevated += Time.deltaTime;
         }
 
         private void PatrolBehaviour()
@@ -129,10 +138,11 @@ namespace RPG.Control{
             fighter.Attack(player);
         }
 
-        private bool InAttackRangeOfPlayer(GameObject player)
+        private bool IsAggrevated(GameObject player)
         {
+            //tem que se por tambem para o pet, actualmente so funciona para o player!
             float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
-            return distanceToPlayer < chaseDistance;
+            return distanceToPlayer < chaseDistance || timeSinceAggrevated < aggroCooldownTime;
         }
 
         //para visualizar Gizmos, apenas do objecto que tiver selecionado 
