@@ -7,5 +7,7 @@
         Archer,
         Mage,
         Companion,
+        CowHorse,
+        Wolf,
     }
 }
