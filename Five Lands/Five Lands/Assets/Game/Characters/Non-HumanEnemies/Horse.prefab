@@ -74,6 +74,8 @@ MonoBehaviour:
   PatrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
+  shoutDistance: 5
+  amIAggressive: 0
   patrolSpeedFraction: 0.2
 --- !u!1 &7891788981645717827
 GameObject:

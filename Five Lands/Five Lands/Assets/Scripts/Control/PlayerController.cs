@@ -23,7 +23,7 @@ namespace RPG.Control
         }
         [SerializeField] CursorMapping[] cursorMappings = null;
         [SerializeField] float maxNavMeshProjectionDistance =1f;
-
+        [SerializeField] float spherecastRadius = 1f;
         Health health;
         private float horizontal;
         private float H;
@@ -80,7 +80,7 @@ namespace RPG.Control
 
         RaycastHit[] RaycastAllSorted()
         {
-            RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
+            RaycastHit[] hits = Physics.SphereCastAll(GetMouseRay(), spherecastRadius);
             float[] distances = new float[hits.Length]; //vai ter as distancias de todos os objectos com que o raycast colide!
             for(int i = 0; i < hits.Length; i++)
             {

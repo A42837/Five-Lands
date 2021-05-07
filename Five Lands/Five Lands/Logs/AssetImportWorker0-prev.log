@@ -15,11 +15,11 @@ C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65409
+51861
 Successfully changed project path to: C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 145.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 119.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,5 +36,771 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005161 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 171.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.784 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 129.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.334 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2218 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.2 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2687.
+Total: 3.297900 ms (FindLiveObjects: 0.324200 ms CreateObjectMapping: 0.198100 ms MarkObjects: 2.550700 ms  DeleteObjects: 0.223700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/GrassPlane/TwoSided/GrassPlane_a_TwoS_04.prefab
+  artifactKey: Guid(907f202650534fc44ac7a76becbbff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/GrassPlane/TwoSided/GrassPlane_a_TwoS_04.prefab using Guid(907f202650534fc44ac7a76becbbff46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90f1f04bf20351bc12da08e1090cd79a') in 0.458787 seconds
+  Import took 0.488634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.261650 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/Grass3D/Grass3D_a_01.prefab
+  artifactKey: Guid(9ff3394075308d5459705bc7ba6f9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/Grass3D/Grass3D_a_01.prefab using Guid(9ff3394075308d5459705bc7ba6f9f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e16031b298cef804ad2bc5eb660363') in 0.034392 seconds
+  Import took 0.053532 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.920 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 134.9 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2732.
+Total: 3.173300 ms (FindLiveObjects: 0.300200 ms CreateObjectMapping: 0.117800 ms MarkObjects: 2.686600 ms  DeleteObjects: 0.067100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001912 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.62 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.242 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.35 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.7 MB.
+System memory in use after: 134.9 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2732.
+Total: 3.066900 ms (FindLiveObjects: 0.285700 ms CreateObjectMapping: 0.109000 ms MarkObjects: 2.647100 ms  DeleteObjects: 0.023200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 192.271148 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/Grass3D/Grass3D_b_02.prefab
+  artifactKey: Guid(1bffb8c75a1bc2d4395e48ed632b54d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/Grass3D/Grass3D_b_02.prefab using Guid(1bffb8c75a1bc2d4395e48ed632b54d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd591a3138a9798d6af7d06cb14653f90') in 0.288438 seconds
+  Import took 0.306930 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.747 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.8 MB.
+System memory in use after: 135.0 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2768.
+Total: 3.604900 ms (FindLiveObjects: 0.507000 ms CreateObjectMapping: 0.172000 ms MarkObjects: 2.904700 ms  DeleteObjects: 0.019100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 328.256370 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided/Grass_a_TwoS_04.prefab
+  artifactKey: Guid(1b6a13782362e424789e998f70e56462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided/Grass_a_TwoS_04.prefab using Guid(1b6a13782362e424789e998f70e56462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9a1176ba0d019f786713d40688628e2') in 0.280528 seconds
+  Import took 0.318211 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001884 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.256 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 7.05 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.0 MB.
+System memory in use after: 135.2 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2804.
+Total: 2.792000 ms (FindLiveObjects: 0.336400 ms CreateObjectMapping: 0.100400 ms MarkObjects: 2.334100 ms  DeleteObjects: 0.018700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.518150 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Demo
+  artifactKey: Guid(5a52e4812eb591f489c3cd718a8d99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Demo using Guid(5a52e4812eb591f489c3cd718a8d99e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0d14bd3e03578a84058f519edd2bb8') in 0.018375 seconds
+  Import took 0.055252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.606568 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Demo/Asset _Scenes
+  artifactKey: Guid(019c8929b8a44e8459e1cb49d58d9c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Demo/Asset _Scenes using Guid(019c8929b8a44e8459e1cb49d58d9c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e048d9e75fe7fd23abfd965ea75da9fb') in 0.011423 seconds
+  Import took 0.087840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.506505 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Demo/Demo_Scenes
+  artifactKey: Guid(9438d2e4b14534a45ad655fb8262f7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Demo/Demo_Scenes using Guid(9438d2e4b14534a45ad655fb8262f7cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46cb361d0b4065b3cdcbfb2b7b5209d8') in 0.018453 seconds
+  Import took 0.096952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.202364 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets
+  artifactKey: Guid(2f4a5165fc4a4c84a9a985d83c18a552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets using Guid(2f4a5165fc4a4c84a9a985d83c18a552) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6a2b47e6d18e12522cf1d42bef71f64') in 0.008944 seconds
+  Import took 0.045719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.178044 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets/Prefabs
+  artifactKey: Guid(99621c5d5b49c1a49b2c239d9d965715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets/Prefabs using Guid(99621c5d5b49c1a49b2c239d9d965715) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daeae05a4262cb391f00be0998802f79') in 0.045547 seconds
+  Import took 0.066373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.430476 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets/Prefabs/Water
+  artifactKey: Guid(ba2d99b8af8efef4f81397d00862efd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets/Prefabs/Water using Guid(ba2d99b8af8efef4f81397d00862efd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d47f160345d593f37bed7ca6a2f0b90') in 0.031227 seconds
+  Import took 0.088300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.475368 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets/Prefabs/Clouds
+  artifactKey: Guid(550b648de0725734a937e91bc619a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets/Prefabs/Clouds using Guid(550b648de0725734a937e91bc619a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5421312271da874d2da2fd728984d25c') in 0.010247 seconds
+  Import took 0.082502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089054 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets/Prefabs/Clouds
+  artifactKey: Guid(550b648de0725734a937e91bc619a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Bonus Assets/Prefabs/Clouds using Guid(550b648de0725734a937e91bc619a71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5421312271da874d2da2fd728984d25c') in 0.003048 seconds
+  Import took 0.008296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.544717 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided
+  artifactKey: Guid(4557d7fa813198b41802667139ed5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided using Guid(4557d7fa813198b41802667139ed5923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6eaf200e641e9b0c21fd88c2aeb815b') in 0.035226 seconds
+  Import took 0.084375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.032128 seconds.
+  path: Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Brushes/grass-brush1.png
+  artifactKey: Guid(b44889aa490ee46c1b19e2649ce90f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Brushes/grass-brush1.png using Guid(b44889aa490ee46c1b19e2649ce90f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a17c30f6bbd75030d67cef022ce88da') in 0.314788 seconds
+  Import took 0.348782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_b_02.psd
+  artifactKey: Guid(2e16af94770995e43bc722b6583852b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_b_02.psd using Guid(2e16af94770995e43bc722b6583852b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207fb41da3bb94988712bd5b7261a726') in 0.117628 seconds
+  Import took 0.138739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_02.psd
+  artifactKey: Guid(9dab4c4986f4d3446a474da3397c12eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_02.psd using Guid(9dab4c4986f4d3446a474da3397c12eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c399f91bdac752303397e2386aed27f5') in 0.065208 seconds
+  Import took 0.092335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Brushes/grass-brush3.png
+  artifactKey: Guid(32e71a8cb10274d95bc9d47fd973e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Brushes/grass-brush3.png using Guid(32e71a8cb10274d95bc9d47fd973e38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216b2b9d8552934bcaaa23b6dddf8906') in 0.091218 seconds
+  Import took 0.107782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Terrain/Ground-dirt-grass_COL_512.png
+  artifactKey: Guid(e74aa028cac0d4c678a2d2aba86e227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Terrain/Ground-dirt-grass_COL_512.png using Guid(e74aa028cac0d4c678a2d2aba86e227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '441c6fed8b0da84afae5b037fecd42e2') in 0.080656 seconds
+  Import took 0.107947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_04.psd
+  artifactKey: Guid(b2784ddcbe406414b9f8d289d7ee5250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_04.psd using Guid(b2784ddcbe406414b9f8d289d7ee5250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bcf19ec8ddefa8c4af02d65a4964e1') in 0.021925 seconds
+  Import took 0.055877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_b_01.psd
+  artifactKey: Guid(32cd5764b6bd84442a3b1520be0d1621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_b_01.psd using Guid(32cd5764b6bd84442a3b1520be0d1621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbc4d67c2842d3173883d53119f1858') in 0.074739 seconds
+  Import took 0.093221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_05.psd
+  artifactKey: Guid(0644b6529f857f246b50f77caf8238d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_05.psd using Guid(0644b6529f857f246b50f77caf8238d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696a438c6ee0c902fd7b8138ab091089') in 0.030934 seconds
+  Import took 0.058327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d9aa5fb4e407c3607bde661cbed4a5') in 0.100838 seconds
+  Import took 0.109010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_01.psd
+  artifactKey: Guid(52446c408a7ea7c4995bea046396b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_01.psd using Guid(52446c408a7ea7c4995bea046396b5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab56f595caa5f23d978788ae0a0d71e') in 0.177762 seconds
+  Import took 0.205158 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_b_03.psd
+  artifactKey: Guid(3f714115a96a5bd48af1f5b7987725b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_b_03.psd using Guid(3f714115a96a5bd48af1f5b7987725b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1815bf8836648a12f83cccc168dea18') in 0.067472 seconds
+  Import took 0.089612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Terrain/Ground-grass_COL_256.png
+  artifactKey: Guid(f8526de50359246c18b9745c0eb88005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Terrain/Ground-grass_COL_256.png using Guid(f8526de50359246c18b9745c0eb88005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd952f984fda0f5fd3c571c7aa2c79a') in 0.046465 seconds
+  Import took 0.069728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd
+  artifactKey: Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond01AlbedoAlpha.psd using Guid(2c528fec5d95e4ac28cf46399b887662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57ca9d560230b0cd22102709cbd492f') in 0.071118 seconds
+  Import took 0.094240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Brushes/grass-brush2.png
+  artifactKey: Guid(f5ef23c6d74e24f178d1b69eb0a174fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- Textures/Brushes/grass-brush2.png using Guid(f5ef23c6d74e24f178d1b69eb0a174fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66096d60aa8873542d3b96e47de392ca') in 0.068779 seconds
+  Import took 0.092791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
+  artifactKey: Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd using Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9fa4bbabdb15f53c84f7cca715cf03') in 0.045841 seconds
+  Import took 0.069574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742a63c860769d3d8897e1a50a362ae9') in 0.072913 seconds
+  Import took 0.077918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_03.psd
+  artifactKey: Guid(3aed4d23a2733a44386f4a61ae4f061a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_a_03.psd using Guid(3aed4d23a2733a44386f4a61ae4f061a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01946d4320be9d7ead3015e00c9873f3') in 0.059969 seconds
+  Import took 0.109527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_b_04.psd
+  artifactKey: Guid(d37efb0a05b7f5241a936c345c475be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Textures/GrassPlane_b_04.psd using Guid(d37efb0a05b7f5241a936c345c475be0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2b6fdb36e6be8d9a3939b39aedbcc85') in 0.013074 seconds
+  Import took 0.049386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.520146 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided/Grass_a_TwoS_06.prefab
+  artifactKey: Guid(9f4780088dd39f54cbe3baba5b4f0d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided/Grass_a_TwoS_06.prefab using Guid(9f4780088dd39f54cbe3baba5b4f0d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48f6ddbe47178dd9801ecb03d9f62af2') in 0.185805 seconds
+  Import took 0.206202 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002727 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.1 MB.
+System memory in use after: 135.3 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2843.
+Total: 2.792900 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.124100 ms MarkObjects: 2.304700 ms  DeleteObjects: 0.016700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.419005 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided/Grass_c_TwoS_04.prefab
+  artifactKey: Guid(56911dbe17000af499a10b6761ca548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided/Grass_c_TwoS_04.prefab using Guid(56911dbe17000af499a10b6761ca548b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bab8821bd5d2269d271efadea09a75') in 0.270202 seconds
+  Import took 0.295400 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002084 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.145 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.08 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.4 MB.
+System memory in use after: 135.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2879.
+Total: 9.097400 ms (FindLiveObjects: 0.717700 ms CreateObjectMapping: 5.344500 ms MarkObjects: 3.012700 ms  DeleteObjects: 0.020400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.4 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2879.
+Total: 2.664800 ms (FindLiveObjects: 0.339900 ms CreateObjectMapping: 0.121600 ms MarkObjects: 2.181100 ms  DeleteObjects: 0.020800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001782 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.967 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.4 MB.
+System memory in use after: 135.7 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2879.
+Total: 3.444700 ms (FindLiveObjects: 0.443400 ms CreateObjectMapping: 0.276100 ms MarkObjects: 2.699400 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 635.486751 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided/Grass_f_TwoS_06.prefab
+  artifactKey: Guid(29e0a2cab49de884db18debf81366991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Prefabs/Grass/MeshGrass/TwoSided/Grass_f_TwoS_06.prefab using Guid(29e0a2cab49de884db18debf81366991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c40eac7cb07a7963e20c43b8bfec46') in 0.220631 seconds
+  Import took 0.250063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.236341 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass
+  artifactKey: Guid(1c32901bf1edc714995347661e21d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass using Guid(1c32901bf1edc714995347661e21d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ffb907119b69381c411f799b284466') in 0.018674 seconds
+  Import took 0.041172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.742283 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass
+  artifactKey: Guid(1d83558cc91f3044c9a7cd4912f68c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass using Guid(1d83558cc91f3044c9a7cd4912f68c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333b4fafc47bf7b9fec7236e15655412') in 0.026529 seconds
+  Import took 0.053153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.914808 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided
+  artifactKey: Guid(ef300d5685e5f0540bc1fc388f585034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided using Guid(ef300d5685e5f0540bc1fc388f585034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1407b993cd31cb7f9fb257e135ed23') in 0.003828 seconds
+  Import took 0.035245 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10438.376287 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/GrassFixed04.FBX
+  artifactKey: Guid(c8bcbf7bd4e879b40a2a7ede54580a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/GrassFixed04.FBX using Guid(c8bcbf7bd4e879b40a2a7ede54580a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18ff8d56472bd19839c8ad94c1d8210') in 2.123228 seconds
+  Import took 2.409496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 177.122058 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_a_TwoS_01.fbx
+  artifactKey: Guid(a980161b6f34cf7488c1b3dad8250801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/MeshGrass/TwoSided/Grass_a_TwoS_01.fbx using Guid(a980161b6f34cf7488c1b3dad8250801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '483194da9d6de4b66395a4f2890f102f') in 0.183203 seconds
+  Import took 0.214394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 167.593531 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D
+  artifactKey: Guid(f200c19a6a622f64e909b0a91e91b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D using Guid(f200c19a6a622f64e909b0a91e91b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21c3fd93583c46645d7bcba3b3e82dc') in 0.059186 seconds
+  Import took 0.083898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012253 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D
+  artifactKey: Guid(f200c19a6a622f64e909b0a91e91b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D using Guid(f200c19a6a622f64e909b0a91e91b83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21c3fd93583c46645d7bcba3b3e82dc') in 0.005175 seconds
+  Import took 0.010423 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 3.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.0 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2951.
+Total: 3.067700 ms (FindLiveObjects: 0.360200 ms CreateObjectMapping: 0.110500 ms MarkObjects: 2.572900 ms  DeleteObjects: 0.021100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 121.778429 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)
+  artifactKey: Guid(30606061d3dc1464a82e997911979da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco) using Guid(30606061d3dc1464a82e997911979da2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee682c2f5f0eea3354d38d1b5cd90077') in 0.012047 seconds
+  Import took 0.049235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 828.564593 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)/Grass3D_01FIXED.FBX
+  artifactKey: Guid(db615c9c1c82b2e4eb6999088f407e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)/Grass3D_01FIXED.FBX using Guid(db615c9c1c82b2e4eb6999088f407e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd190686ad6669d15d20947ccbdda93f5') in 0.364486 seconds
+  Import took 0.400872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.709023 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)/Grass3D_02FIXED.FBX
+  artifactKey: Guid(d5e2cdba4a65be14ba68ba7cf53205d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)/Grass3D_02FIXED.FBX using Guid(d5e2cdba4a65be14ba68ba7cf53205d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5226b3d0f42e96bafa520b98706eec') in 0.034032 seconds
+  Import took 0.058227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.826626 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)/Grass3D_03FIXED.FBX
+  artifactKey: Guid(fcf74a5722fbf6d47b6de2b20492d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)/Grass3D_03FIXED.FBX using Guid(fcf74a5722fbf6d47b6de2b20492d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08786b485ba298e0ba15939e838ccf0b') in 0.027024 seconds
+  Import took 0.062483 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001899 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.046 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.1 MB.
+System memory in use after: 136.3 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 2987.
+Total: 3.496100 ms (FindLiveObjects: 0.381300 ms CreateObjectMapping: 0.226500 ms MarkObjects: 2.870100 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 238.755480 seconds.
+  path: Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)/Grass3D_07FIXED.FBX
+  artifactKey: Guid(36865ee263acc3b4a92bb2cdba99d976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Low Poly Vegetation Pack/Vegetation Assets/Meshes/Grass/Grass3D/FixedGrasses(byVasco)/Grass3D_07FIXED.FBX using Guid(36865ee263acc3b4a92bb2cdba99d976) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cafecbedd688f3365529b9ceaa5e5f6c') in 0.274020 seconds
+  Import took 0.299195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002991 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.5 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 3.667300 ms (FindLiveObjects: 0.466900 ms CreateObjectMapping: 0.282100 ms MarkObjects: 2.900300 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001840 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.108 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 3.675800 ms (FindLiveObjects: 0.539400 ms CreateObjectMapping: 0.281200 ms MarkObjects: 2.835400 ms  DeleteObjects: 0.018300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001861 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.019 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.3 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 3023.
+Total: 3.768500 ms (FindLiveObjects: 0.538500 ms CreateObjectMapping: 0.303800 ms MarkObjects: 2.907800 ms  DeleteObjects: 0.017000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2776.150307 seconds.
+  path: Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx
+  artifactKey: Guid(aaca44a3eca756c419ccc26430c2a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Synty - Polygon Student Sample/Models/SM_Env_Grass_01.fbx using Guid(aaca44a3eca756c419ccc26430c2a062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f569c585ccb89f7c2a85d17349fc80f2') in 0.360631 seconds
+  Import took 0.389772 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002225 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.041 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2097 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 3059.
+Total: 3.858100 ms (FindLiveObjects: 0.484700 ms CreateObjectMapping: 0.298100 ms MarkObjects: 3.045100 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
