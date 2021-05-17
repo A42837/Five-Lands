@@ -9,6 +9,7 @@ using RPG.Stats;
 using RPG.Companion;
 using GameDevTV.Utils;
 using System;
+using GameDevTV.Inventories;
 
 namespace RPG.Combat{
     public class Fighter : MonoBehaviour, IAction, ISaveable, IModifierProvider{
@@ -20,6 +21,7 @@ namespace RPG.Combat{
         [SerializeField] WeaponConfig defaultWeapon = null;
 
         Health target;
+        Equipment equipment;
         float timeSinceLastAttack = Mathf.Infinity;
         WeaponConfig currentWeaponConfig;
 
@@ -29,6 +31,26 @@ namespace RPG.Combat{
         {
             currentWeaponConfig = defaultWeapon;
             currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
+            equipment = GetComponent<Equipment>();
+            if (equipment)
+            {
+                equipment.equipmentUpdated += UpdateWeapon;
+            }
+        }
+
+        private void UpdateWeapon()
+        {
+            var weapon = equipment.GetItemInSlot(EquipLocation.Weapon) as WeaponConfig;
+            if (weapon == null)
+            {
+                //caso não tenha nada equipado, equipo a default weapon que é o soco/mao
+                EquipWeapon(defaultWeapon);
+            }
+            else
+            {
+                //no caso de ter mesmo uma weapon tipo espada, bow, etc...
+                EquipWeapon(weapon);
+            }
         }
 
         private Weapon SetupDefaultWeapon()
