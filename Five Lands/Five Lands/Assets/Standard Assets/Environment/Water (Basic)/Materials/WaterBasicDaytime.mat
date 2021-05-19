@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: WaterBasicDaytime
   m_Shader: {fileID: 4800000, guid: 9dccc8e8f0da4494991c26ef59019551, type: 3}
-  m_ShaderKeywords: 
+  m_ShaderKeywords: _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -19,6 +19,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BumpMap:
         m_Texture: {fileID: 2800000, guid: a53cf5449d11a15d1100a04b44295342, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -39,12 +43,40 @@ Material:
         m_Texture: {fileID: 2800000, guid: 8403d3349d112ba4d000be1be39e7c39, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Fresnel:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: c2ef94ff9d11915d1100a04b44295342, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ReflectionTex:
@@ -63,20 +95,62 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _WavesTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
     - _BumpPeturb: 82.07547
     - _BumpPeturb2: 0.745283
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DetailAlbedoMapScale: 1
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EnvironmentReflections: 1
     - _FresnelScale: 0.75
     - _GerstnerIntensity: 1
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
     - _Highlight: 33.207546
+    - _Metallic: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _ReflDistort: 0.44
     - _RefrDistort: 0.4
     - _Shininess: 1
-    - _WaveScale: 0.15
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _WaveScale: 0.0251
+    - _WorkflowMode: 1
+    - _ZWrite: 1
     - _bScale: 0.07
     - _bTwirl: 0.05
     - _distort: 0.1
@@ -94,6 +168,7 @@ Material:
     - _ColorControl_ST: {r: 1, g: 1, b: 0, a: 0}
     - _DistortParams: {r: 1, g: 1, b: 2, a: 1.15}
     - _EdgeColor: {r: 0, g: 0.1, b: 0, a: 0.1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Foam: {r: 0.1, g: 0.375, b: 0, a: 0}
     - _GAmplitude: {r: 0.3, g: 0.35, b: 0.25, a: 0.25}
     - _GDirectionAB: {r: 0.3, g: 0.85, b: 0.85, a: 0.25}
@@ -114,7 +189,7 @@ Material:
     - _SpecularColor: {r: 0.72, g: 0.72, b: 0.72, a: 1}
     - _WaveSpeed: {r: 1, g: -1, b: -1, a: 1}
     - _WorldLightDir: {r: 0, g: 0.1, b: -0.5, a: 0}
-    - _horizonColor: {r: 0.23673905, g: 0.41442975, b: 0.5283019, a: 0}
+    - _horizonColor: {r: 0.2544945, g: 0.34751967, b: 0.4056604, a: 1}
     - horizonColor: {r: 0.615, g: 0.796, b: 0.876, a: 1}
     - uvParams: {r: 10, g: 0.02, b: 0.03, a: 0}
     - waveDirX: {r: -2.5, g: 0, b: 7, a: 8}
