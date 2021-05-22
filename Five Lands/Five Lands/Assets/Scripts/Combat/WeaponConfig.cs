@@ -1,11 +1,14 @@
 using System;
 using UnityEngine;
 using RPG.Attributes;
+using GameDevTV.Inventories;
+using RPG.Stats;
+using System.Collections.Generic;
 
 namespace RPG.Combat
 {
     [CreateAssetMenu(fileName = "Weapon", menuName = "Weapons/ Make New Weapon", order = 0)]
-    public class WeaponConfig : ScriptableObject
+    public class WeaponConfig : EquipableItem, IModifierProvider
     {
         [SerializeField] AnimatorOverrideController animatorOverride = null;
         [SerializeField] Weapon equippedPrefab = null;
@@ -91,5 +94,22 @@ namespace RPG.Combat
             return weaponRange;
         }
 
+        //desta maneira, os weapons apenas podem dar bonus de dano. o resto da bonus de vida e isso
+        // podia fazer um foreach como esta no stats equipabble item e assim ja podia por bonus de vida 
+        public IEnumerable<float> GetAdditiveModifiers(Stat stat)
+        {
+            if(stat == Stat.Damage)
+            {
+                yield return weaponDamage;
+            }
+        }
+
+        public IEnumerable<float> GetPercentageModifiers(Stat stat)
+        {
+            if (stat == Stat.Damage)
+            {
+                yield return percentageBonus;
+            }
+        }
     }
 }
