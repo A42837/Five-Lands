@@ -4,5 +4,6 @@ namespace RPG.Control
     {
         CursorType GetCursorType();
         bool HandleRaycast(PlayerController callingController);
+        //comment raycastable!
     }
 }

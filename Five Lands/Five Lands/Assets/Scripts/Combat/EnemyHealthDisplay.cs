@@ -20,6 +20,7 @@ namespace RPG.Combat
         private void Update()
         {
             //0:0 quer dizer que a primeira variavel depois da virgula, vai ser mostrada com 0 casas decimais !
+            //test comment
             if(fighter.GetTarget() == null)
             {
                 GetComponent<Text>().text = "N/A";
