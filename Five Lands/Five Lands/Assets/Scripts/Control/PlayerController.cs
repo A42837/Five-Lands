@@ -32,6 +32,8 @@ namespace RPG.Control
         Vector3 movement = Vector3.zero;
         public Camera cameraOrientation;
 
+        bool isDraggingUI = false;   //flag que me diz se estou com um item no rato
+
         private void Awake() {
             health = GetComponent<Health>();
             navMeshAgent = GetComponent<NavMeshAgent>();
@@ -93,11 +95,23 @@ namespace RPG.Control
 
         private bool InteractWithUI()
         {
-            
-            //da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol
-            if(  EventSystem.current.IsPointerOverGameObject())
+            if (Input.GetMouseButtonUp(0))
             {
+                isDraggingUI = false;
+            }
+
+            //da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol
+            if (  EventSystem.current.IsPointerOverGameObject())
+            {
+                if(Input.GetMouseButtonDown(0))
+                {
+                    isDraggingUI = true;
+                }
                 SetCursor(CursorType.UI);
+                return true;
+            }
+            if (isDraggingUI)
+            {
                 return true;
             }
             return false;
