@@ -9,6 +9,7 @@ using RPG.Stats;
 using RPG.Companion;
 using GameDevTV.Utils;
 using System;
+using GameDevTV.Inventories;
 
 namespace RPG.Combat{
     public class Fighter : MonoBehaviour, IAction, ISaveable, IModifierProvider{
@@ -20,6 +21,7 @@ namespace RPG.Combat{
         [SerializeField] WeaponConfig defaultWeapon = null;
 
         Health target;
+        Equipment equipment;
         float timeSinceLastAttack = Mathf.Infinity;
         WeaponConfig currentWeaponConfig;
 
@@ -29,6 +31,28 @@ namespace RPG.Combat{
         {
             currentWeaponConfig = defaultWeapon;
             currentWeapon = new LazyValue<Weapon>(SetupDefaultWeapon);
+            equipment = GetComponent<Equipment>();
+            if (equipment)
+            {
+                equipment.equipmentUpdated += UpdateWeapon;
+            }
+            
+
+        }
+
+        private void UpdateWeapon()
+        {
+            var weapon = equipment.GetItemInSlot(EquipLocation.Weapon) as WeaponConfig;
+            if (weapon == null)
+            {
+                //caso de unequip a weapon, fico com o default weapon, ou seja a dar murros/peras!
+                EquipWeapon(defaultWeapon);
+            }
+            else
+            {
+                EquipWeapon(weapon);
+            }
+
         }
 
         private Weapon SetupDefaultWeapon()
