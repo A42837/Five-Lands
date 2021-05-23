@@ -15,11 +15,11 @@ C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55191
+50973
 Successfully changed project path to: C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 121.13 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 244.64 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -38,70 +38,3 @@ Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBle
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56576
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002538 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 140.58 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.292 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.001696 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.67 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2229 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 134.3 MB.
-System memory in use after: 134.4 MB.
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 2694.
-Total: 3.998200 ms (FindLiveObjects: 0.378800 ms CreateObjectMapping: 0.271600 ms MarkObjects: 3.187900 ms  DeleteObjects: 0.158000 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Combat/EnemyHealthDisplay.cs
-  artifactKey: Guid(70f6f4cd6a40b2048870da6a74f07f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Combat/EnemyHealthDisplay.cs using Guid(70f6f4cd6a40b2048870da6a74f07f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636a25d64d411aff96e12a4b4bf9447b') in 0.267280 seconds
-  Import took 0.305829 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 400.066562 seconds.
-  path: Assets/Scripts/Combat/EnemyHealthDisplay.cs
-  artifactKey: Guid(70f6f4cd6a40b2048870da6a74f07f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Combat/EnemyHealthDisplay.cs using Guid(70f6f4cd6a40b2048870da6a74f07f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248cfbb74218834d749e33d209e967a8') in 0.034837 seconds
-  Import took 0.086588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.171894 seconds.
-  path: Assets/Scripts/Combat/EnemyHealthDisplay.cs
-  artifactKey: Guid(70f6f4cd6a40b2048870da6a74f07f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Combat/EnemyHealthDisplay.cs using Guid(70f6f4cd6a40b2048870da6a74f07f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '248cfbb74218834d749e33d209e967a8') in 0.003615 seconds
-  Import took 0.029389 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001801 seconds.
