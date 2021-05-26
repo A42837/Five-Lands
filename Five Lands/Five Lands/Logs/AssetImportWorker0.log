@@ -1,318 +1,682 @@
 Using pre-set license
-Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 8130 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
+/Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58302
-Successfully changed project path to: C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
-C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
+53214
+Successfully changed project path to: /Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
+/Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 128.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 143.95 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands/Assets
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands/Assets
 GfxDevice: creating device client; threaded=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
-    Vendor:   
-    VRAM:     1998 MB
-    Driver:   27.21.14.5671
+2021-05-26 13:39:55.989 Unity[46701:1982101] Color LCD preferred device: NVIDIA GeForce GT 750M (high power)
+2021-05-26 13:39:55.990 Unity[46701:1982101] Metal devices available: 2
+2021-05-26 13:39:55.990 Unity[46701:1982101] 0: NVIDIA GeForce GT 750M (high power)
+2021-05-26 13:39:55.990 Unity[46701:1982101] 1: Intel Iris Pro Graphics (low power)
+2021-05-26 13:39:55.990 Unity[46701:1982101] Using device NVIDIA GeForce GT 750M (high power)
+Initializing Metal device caps: NVIDIA GeForce GT 750M
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56701
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002553 seconds.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.13 ms, found 0 plugins.
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000836 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 155.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.202 seconds
+- Completed reload, in  3.299 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001657 seconds.
+Registered in 0.001688 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 111.09 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 183.28 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.084 seconds
+- Completed reload, in  2.186 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2384 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 266.0 MB.
+System memory in use after: 266.2 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2848.
+Total: 3.850818 ms (FindLiveObjects: 0.412955 ms CreateObjectMapping: 0.281806 ms MarkObjects: 2.926850 ms  DeleteObjects: 0.227851 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_01.png
+  artifactKey: Guid(8e77f4013dc06ac47bf24565426fccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_01.png using Guid(8e77f4013dc06ac47bf24565426fccdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67c94f9a2f6123561612a410efbeb81') in 0.662971 seconds
+  Import took 0.671037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left-bot.png
+  artifactKey: Guid(aecf7b06947a08845a483c11c8a98f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left-bot.png using Guid(aecf7b06947a08845a483c11c8a98f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac578b705540dcac1cc494e599305abf') in 0.011604 seconds
+  Import took 0.016551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.236822 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_02.png
+  artifactKey: Guid(f6385dfc9df85b742babe9f080feb756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_02.png using Guid(f6385dfc9df85b742babe9f080feb756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defe24c57f2a14dc96a529dbc1f9fdd6') in 0.013940 seconds
+  Import took 0.020249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_04.png
+  artifactKey: Guid(373773b6623f4fb4c89ed91602df42dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_04.png using Guid(373773b6623f4fb4c89ed91602df42dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ea4c78725eab9f6d154ec256a69e7b') in 0.023313 seconds
+  Import took 0.028855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_bot.png
+  artifactKey: Guid(43ee3da49328ac649b7ac986a6c1c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_bot.png using Guid(43ee3da49328ac649b7ac986a6c1c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d34207f82d6fc946b59820e0c0d255a') in 0.012680 seconds
+  Import took 0.018579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_chest.png
+  artifactKey: Guid(e1855ae875aa6424d81fb5c5c1d623a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_chest.png using Guid(e1855ae875aa6424d81fb5c5c1d623a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c117dfe2fc357a8de41809c361ea901b') in 0.014002 seconds
+  Import took 0.020352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_02.png
+  artifactKey: Guid(f6385dfc9df85b742babe9f080feb756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_02.png using Guid(f6385dfc9df85b742babe9f080feb756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'defe24c57f2a14dc96a529dbc1f9fdd6') in 0.011633 seconds
+  Import took 0.016861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_23.png
+  artifactKey: Guid(45b131bd81d7d49439aef2159828393a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_23.png using Guid(45b131bd81d7d49439aef2159828393a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c0566f3db45cf897c9cf2de00e4d760') in 0.018898 seconds
+  Import took 0.024244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left.png
+  artifactKey: Guid(f8c06873fbe07fb44b5edcb3ce991be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left.png using Guid(f8c06873fbe07fb44b5edcb3ce991be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b3225dfa32ea7693afa1843f6e86fc') in 0.016394 seconds
+  Import took 0.021897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_weapon.png
+  artifactKey: Guid(344aa2512e791bb4693b61b07493b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_weapon.png using Guid(344aa2512e791bb4693b61b07493b445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc6d471850136c33949bf7d51b9c66b8') in 0.017817 seconds
+  Import took 0.023877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_shield.png
+  artifactKey: Guid(f059877565627d540b227f396ad9e568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_shield.png using Guid(f059877565627d540b227f396ad9e568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ab7b6a436b3c556c255b6ec1e5d296') in 0.019347 seconds
+  Import took 0.026130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_gloves.png
+  artifactKey: Guid(88f4bdad502a13449abc596e59f840e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_gloves.png using Guid(88f4bdad502a13449abc596e59f840e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e10942bb265792045c2f9bec8a0f3a') in 0.013795 seconds
+  Import took 0.022091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right-top.png
+  artifactKey: Guid(1617354d4f199c540b6a9b38e564d343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right-top.png using Guid(1617354d4f199c540b6a9b38e564d343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7e41065a7ac66baac567ce9fce2954') in 0.015019 seconds
+  Import took 0.021504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_06.png
+  artifactKey: Guid(ff128f70cb401434da05bb746522f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Background_06.png using Guid(ff128f70cb401434da05bb746522f40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affbc3d2217bd3abb54aede45ec13958') in 0.019749 seconds
+  Import took 0.028233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_05.png
+  artifactKey: Guid(83069f538d9e0604a8bed52715d594c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_05.png using Guid(83069f538d9e0604a8bed52715d594c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45dff23bf899d361e8b6aecd8da9e47') in 0.015294 seconds
+  Import took 0.022607 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right-bot.png
+  artifactKey: Guid(b8df0dbac0428da459f90e9850cf44b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right-bot.png using Guid(b8df0dbac0428da459f90e9850cf44b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b60c33bdc3f4749675fa5c75359951e') in 0.016484 seconds
+  Import took 0.025155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_neck.png
+  artifactKey: Guid(a2460e188fc1efb418ac53fa2715c6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_neck.png using Guid(a2460e188fc1efb418ac53fa2715c6e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a493244eb2fcc848324e40c55ab62a82') in 0.030082 seconds
+  Import took 0.039429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000674 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_05.png
+  artifactKey: Guid(83069f538d9e0604a8bed52715d594c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_05.png using Guid(83069f538d9e0604a8bed52715d594c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b45dff23bf899d361e8b6aecd8da9e47') in 0.019932 seconds
+  Import took 0.027572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_boots.png
+  artifactKey: Guid(cfa037d9ad8881747b6188967698d6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_boots.png using Guid(cfa037d9ad8881747b6188967698d6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f025d1b059433312d425f8c49d2731cf') in 0.016864 seconds
+  Import took 0.025029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001065 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right.png
+  artifactKey: Guid(bfc47da5ded1ffa4c9743736e7968b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_right.png using Guid(bfc47da5ded1ffa4c9743736e7968b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9f0f6152d2a28058e26eb5f91f0c2d') in 0.015347 seconds
+  Import took 0.022963 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_11.png
+  artifactKey: Guid(5ddf9f0620390bf4db1980ca2abb5df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/Button_11.png using Guid(5ddf9f0620390bf4db1980ca2abb5df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea554618ceb93872be8d37396a99b7a') in 0.014535 seconds
+  Import took 0.020144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_pants.png
+  artifactKey: Guid(ee69c6bad6679564ca603179e243f448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_pants.png using Guid(ee69c6bad6679564ca603179e243f448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088ffd4ca79f53e463de25838bd9734e') in 0.022400 seconds
+  Import took 0.028693 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_top.png
+  artifactKey: Guid(5e4901665d74ae04b8716a7fd72b79eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_top.png using Guid(5e4901665d74ae04b8716a7fd72b79eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78be0ff93b216073b89f9d1266c4eee5') in 0.013966 seconds
+  Import took 0.019796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_helm.png
+  artifactKey: Guid(4c438a3604a96dd4d8990cc11b424f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_helm.png using Guid(4c438a3604a96dd4d8990cc11b424f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d368d46f1218458fccc6603d55a55cf') in 0.014805 seconds
+  Import took 0.020065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left-top.png
+  artifactKey: Guid(2f64cca59b0b8ec4783635f53e9bbb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/FRAME_left-top.png using Guid(2f64cca59b0b8ec4783635f53e9bbb9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5fe56af800154de933fb73c308f104') in 0.020003 seconds
+  Import took 0.026032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064990 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_helm.png
+  artifactKey: Guid(4c438a3604a96dd4d8990cc11b424f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Parts/InventoryButton_helm.png using Guid(4c438a3604a96dd4d8990cc11b424f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d368d46f1218458fccc6603d55a55cf') in 0.013654 seconds
+  Import took 0.021297 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001878 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.995 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.12 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2249 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 266.4 MB.
+System memory in use after: 266.6 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2854.
+Total: 5.518980 ms (FindLiveObjects: 0.403679 ms CreateObjectMapping: 0.382671 ms MarkObjects: 4.448571 ms  DeleteObjects: 0.282478 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7513.083076 seconds.
+  path: Assets/UI/TextBox.png
+  artifactKey: Guid(f447a1295dfb64cf29191031b170177e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/TextBox.png using Guid(f447a1295dfb64cf29191031b170177e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22af513c9ba34aaf95366f4d95f89b7d') in 0.169533 seconds
+  Import took 0.183618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.337719 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/A.png
+  artifactKey: Guid(7c4272045db356d4191801bf4343dbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/A.png using Guid(7c4272045db356d4191801bf4343dbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582a0a5dcb5c2a98830e9eb38b7dad38') in 0.041628 seconds
+  Import took 0.049282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotG.png
+  artifactKey: Guid(5644080e10ea6f34caa2ee85b0bee17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotG.png using Guid(5644080e10ea6f34caa2ee85b0bee17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119eae582ce07921e2c7b0705fd07884') in 0.014403 seconds
+  Import took 0.021379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Shield_01_Nobg.png
+  artifactKey: Guid(886ffb608498aa04c9c0913d5ac3c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Shield_01_Nobg.png using Guid(886ffb608498aa04c9c0913d5ac3c394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ebc9f931310ab75f37b57ed73898220') in 0.020223 seconds
+  Import took 0.027109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/ScrollingBar_Long_size.png
+  artifactKey: Guid(2e8f95352a721a54485a1d0a4f0b7d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/ScrollingBar_Long_size.png using Guid(2e8f95352a721a54485a1d0a4f0b7d4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407c60c9e55120d151c937ef67b20cc3') in 0.015296 seconds
+  Import took 0.021133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/B.png
+  artifactKey: Guid(b81ba68e50e78424a98853aed32330ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/B.png using Guid(b81ba68e50e78424a98853aed32330ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83d9d687b3b75ad93271d4314458883d') in 0.014837 seconds
+  Import took 0.020268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/rectangle.png
+  artifactKey: Guid(65b98a7e023cad84991c598add6111ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/rectangle.png using Guid(65b98a7e023cad84991c598add6111ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eb7ca3f3975dffdc27a8ba31939fa4c') in 0.012800 seconds
+  Import took 0.018033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Intelligence_icon.png
+  artifactKey: Guid(5732dc58816b91d4dbc488b1b3c8f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Intelligence_icon.png using Guid(5732dc58816b91d4dbc488b1b3c8f08b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f7013ee150b95f67a242bef14355241') in 0.041914 seconds
+  Import took 0.048432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotC.png
+  artifactKey: Guid(34e63a70424c1ee4e80ce4ff0757859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotC.png using Guid(34e63a70424c1ee4e80ce4ff0757859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bc8a303235995ced53ef8d3547bdfc') in 0.023226 seconds
+  Import took 0.029479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Button_10_On.png
+  artifactKey: Guid(bc7147459da6e0944b077b8808cf1898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Button_10_On.png using Guid(bc7147459da6e0944b077b8808cf1898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f0e9de27a9356c984c91ce38ad6356') in 0.047573 seconds
+  Import took 0.053950 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotD.png
+  artifactKey: Guid(68d5c73fd6d8d094ea9f0150f27aaf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotD.png using Guid(68d5c73fd6d8d094ea9f0150f27aaf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd471cda983bbc9e78b3332e8b1bdfb') in 0.017552 seconds
+  Import took 0.023747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/F.png
+  artifactKey: Guid(cbc705c28892f8547a11bec2f757eec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/F.png using Guid(cbc705c28892f8547a11bec2f757eec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73198b2e8cdcb2b66dfe15f80a066cd8') in 0.019851 seconds
+  Import took 0.025822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Head_08_Nobg.png
+  artifactKey: Guid(c1b61b3a91732a747a8496fc75a13fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Head_08_Nobg.png using Guid(c1b61b3a91732a747a8496fc75a13fe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d3d684f1a4a407c0ec7e45ff2e35e0c') in 0.024044 seconds
+  Import took 0.030170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Dagger_01_Nobg.png
+  artifactKey: Guid(d19901b0ee3c38743a7d383bd484b0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Dagger_01_Nobg.png using Guid(d19901b0ee3c38743a7d383bd484b0b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d05fe70f6ff7b3bbd63894036695f0f') in 0.018394 seconds
+  Import took 0.024430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotE.png
+  artifactKey: Guid(7f5ea285fc81c194eb780e1f2908f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotE.png using Guid(7f5ea285fc81c194eb780e1f2908f0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c5e12daca49c20d9dc919a2a630aeb') in 0.014974 seconds
+  Import took 0.021164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Button_Desk_short.png
+  artifactKey: Guid(d25911b539c43cf41887fb876f6f4d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Button_Desk_short.png using Guid(d25911b539c43cf41887fb876f6f4d71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f5935a22fd12c697a2a81ca19bfd5e') in 0.018275 seconds
+  Import took 0.024168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/Potion_01(Red)_No BG.png
+  artifactKey: Guid(aba0f700d91d4fc4fa8c724899ab04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/Potion_01(Red)_No BG.png using Guid(aba0f700d91d4fc4fa8c724899ab04ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed96317d42e9a1c0a0ff4321ad157d2') in 0.026783 seconds
+  Import took 0.033873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotF.png
+  artifactKey: Guid(fde4b0002c7871a4ba217922cda1e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotF.png using Guid(fde4b0002c7871a4ba217922cda1e2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cfa7a2cdd99d606c07a19a5dfeb5781') in 0.014523 seconds
+  Import took 0.021402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Menu_button_02_Little_On.png
+  artifactKey: Guid(cd8c12672dc367b48b437acbfee50ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Menu_button_02_Little_On.png using Guid(cd8c12672dc367b48b437acbfee50ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee589a98d68984a54f8752fc84b06f6') in 0.021458 seconds
+  Import took 0.029916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_scroll_NOBG.png
+  artifactKey: Guid(a1ec2c0ddc0da634b85f0f465fec2d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_scroll_NOBG.png using Guid(a1ec2c0ddc0da634b85f0f465fec2d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '564bc7be0cb1223ce8b1a209ec8ccf46') in 0.022425 seconds
+  Import took 0.032266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/D.png
+  artifactKey: Guid(1c1096c636a27b648bbf0548bd1d119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/D.png using Guid(1c1096c636a27b648bbf0548bd1d119d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14638557e07587ffe96ab50890b6f5de') in 0.020339 seconds
+  Import took 0.029444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001508 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/ScrollingLine_Long_size.png
+  artifactKey: Guid(60c5bf086c2c2bb47b102c308265ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/ScrollingLine_Long_size.png using Guid(60c5bf086c2c2bb47b102c308265ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c90ba9ed22bddb58c978ad4e6370a5') in 0.013857 seconds
+  Import took 0.022051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Head_01_Nobg.png
+  artifactKey: Guid(7a704c5f161380f438bfabaf93560dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Head_01_Nobg.png using Guid(7a704c5f161380f438bfabaf93560dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '038e7257e018d64081ed2276497488e6') in 0.019511 seconds
+  Import took 0.025915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotH.png
+  artifactKey: Guid(6d6e2da30734bb74cb2de456bb56b0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotH.png using Guid(6d6e2da30734bb74cb2de456bb56b0fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ed83ae4889c1766bb0149ec87c70b7') in 0.013527 seconds
+  Import took 0.019276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Boots_1_b_nobg.png
+  artifactKey: Guid(53f59e0f1e337114a9de3d4cdfae9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Boots_1_b_nobg.png using Guid(53f59e0f1e337114a9de3d4cdfae9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a2881aef553816771b32351aa21f24') in 0.022071 seconds
+  Import took 0.028587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Power_icon.png
+  artifactKey: Guid(9415af11d73bb804c8d24343e1351132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Power_icon.png using Guid(9415af11d73bb804c8d24343e1351132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c9a9c28758c32eef96f0f387500a985') in 0.016044 seconds
+  Import took 0.022365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/C.png
+  artifactKey: Guid(7e6cfca4fbd212d4697e8270b777e19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/C.png using Guid(7e6cfca4fbd212d4697e8270b777e19b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd74afdf4dc4b397afdb8fe885707d94') in 0.013163 seconds
+  Import took 0.019709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotB.png
+  artifactKey: Guid(aa4b2d88fc840d646820e294830f6dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotB.png using Guid(aa4b2d88fc840d646820e294830f6dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aec375d8c28761fdb3fcdd6eac983ff') in 0.019409 seconds
+  Import took 0.027259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Armor_icon.png
+  artifactKey: Guid(65d466afcff75fa428a0b237f81846d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.1/Armor_icon.png using Guid(65d466afcff75fa428a0b237f81846d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '596f766f384e4adc2a2093341f28fbc1') in 0.017497 seconds
+  Import took 0.024476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotA.png
+  artifactKey: Guid(b47431e0d918eeb4eb1dc79bd8e8fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/slotA.png using Guid(b47431e0d918eeb4eb1dc79bd8e8fb50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '546b2fda06275a753ba8a089422c37d2') in 0.016271 seconds
+  Import took 0.022683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Button_23_On.png
+  artifactKey: Guid(43343cc13a117cc4880361e6ceb31566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Fantasy RPG UI Sample/UI/Update 1.2/Button_23_On.png using Guid(43343cc13a117cc4880361e6ceb31566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c78d5e8e2e8c5e92686499a216b086e') in 0.015317 seconds
+  Import took 0.021730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Hammer_01_Nobg.png
+  artifactKey: Guid(ec22508be0cdfba4abbaeb770bef08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Hammer_01_Nobg.png using Guid(ec22508be0cdfba4abbaeb770bef08aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4d5c50d3c7f32fac930c4a93b8dc036') in 0.016251 seconds
+  Import took 0.024110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/A.png
+  artifactKey: Guid(7c4272045db356d4191801bf4343dbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/A.png using Guid(7c4272045db356d4191801bf4343dbe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582a0a5dcb5c2a98830e9eb38b7dad38') in 0.016345 seconds
+  Import took 0.023697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/Potion_01(Purple)_No BG.png
+  artifactKey: Guid(f1dd815974b2d4240a6bc912d6585497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/Potion_01(Purple)_No BG.png using Guid(f1dd815974b2d4240a6bc912d6585497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f271a54bd12908ebb1cabcd51a2562c') in 0.020087 seconds
+  Import took 0.026900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Gloves_02_Nobg.png
+  artifactKey: Guid(f8078c2bb5ee88d4a9472f76e501e0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Gloves_02_Nobg.png using Guid(f8078c2bb5ee88d4a9472f76e501e0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f937119b2eed081f3219c16588e4817b') in 0.018379 seconds
+  Import took 0.024372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/E.png
+  artifactKey: Guid(37322f45c4651a74792a7b1e4e3f287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/E.png using Guid(37322f45c4651a74792a7b1e4e3f287d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5852f6d9a9ecd567ae736b72238e66c') in 0.013718 seconds
+  Import took 0.021070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/G.png
+  artifactKey: Guid(51f3eeabd837633469262f849277bb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/G.png using Guid(51f3eeabd837633469262f849277bb64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175d24085c6f9d017039f1348616c82c') in 0.012032 seconds
+  Import took 0.018297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Chest_04_Nobg.png
+  artifactKey: Guid(7bcee3dac4c974d43b329ee45aef4c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Chest_04_Nobg.png using Guid(7bcee3dac4c974d43b329ee45aef4c99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b8802c5c590dcdb35626ca3b2014e9') in 0.018358 seconds
+  Import took 0.025747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/H.png
+  artifactKey: Guid(d90fb267ee4e64245b86c677bd935db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/GameDev.tv Assets/Sprites/Placeholders/H.png using Guid(d90fb267ee4e64245b86c677bd935db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32766a46bc340ea4b34f6c17aff401f8') in 0.016819 seconds
+  Import took 0.022725 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Asset Packs/Universal Gold Icons Sample/T_Pants_Nobg.png
+  artifactKey: Guid(4e75d1909c6fd8844a31ebef4c5e3972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/Universal Gold Icons Sample/T_Pants_Nobg.png using Guid(4e75d1909c6fd8844a31ebef4c5e3972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5083a961dbe4dacf460e7b8d1109be05') in 0.020589 seconds
+  Import took 0.028167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 207.128026 seconds.
+  path: Assets/UI/TextBox.png
+  artifactKey: Guid(f447a1295dfb64cf29191031b170177e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/TextBox.png using Guid(f447a1295dfb64cf29191031b170177e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34aa365ec6a558bd6a2d6a4275a5caf0') in 0.024652 seconds
+  Import took 0.030527 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2380 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.6 MB.
-System memory in use after: 140.7 MB.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2249 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.4 MB.
+System memory in use after: 267.5 MB.
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2844.
-Total: 3.653000 ms (FindLiveObjects: 0.628800 ms CreateObjectMapping: 0.314700 ms MarkObjects: 2.541800 ms  DeleteObjects: 0.165900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ActionItem.cs
-  artifactKey: Guid(be8358f0fcfcb22418d7b5d788e02cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Asset Packs/GameDev.tv Assets/Scripts/Inventories/ActionItem.cs using Guid(be8358f0fcfcb22418d7b5d788e02cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01194754a6bef3b9ee93e4df23ae800f') in 0.576822 seconds
-  Import took 0.627161 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 226.563657 seconds.
-  path: Assets/Scripts/Iventories
-  artifactKey: Guid(7a7f39c8836ff2c438aa4ea3449e18fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Iventories using Guid(7a7f39c8836ff2c438aa4ea3449e18fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d010a3bb5763087a46a0f53e7e2943') in 0.023405 seconds
-  Import took 0.063250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.468729 seconds.
-  path: Assets/Scripts/Inventories
-  artifactKey: Guid(7a7f39c8836ff2c438aa4ea3449e18fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Inventories using Guid(7a7f39c8836ff2c438aa4ea3449e18fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1b857410b4978a5de5e663ef6aaa86') in 0.007547 seconds
-  Import took 0.025940 seconds .
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 3.364836 ms (FindLiveObjects: 0.470009 ms CreateObjectMapping: 0.166871 ms MarkObjects: 2.565264 ms  DeleteObjects: 0.161014 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001842 seconds.
+Registered in 0.001847 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.076 seconds
+- Completed reload, in  1.644 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2246 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.8 MB.
+Unloading 2249 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 267.8 MB.
+System memory in use after: 268.0 MB.
 
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2845.
-Total: 3.878000 ms (FindLiveObjects: 0.401000 ms CreateObjectMapping: 0.280700 ms MarkObjects: 3.057100 ms  DeleteObjects: 0.137900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.054174 seconds.
-  path: Assets/Scripts/Inventories/StatsEquipment.cs
-  artifactKey: Guid(6e63c490c8dd2ac42a980642f2885ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Inventories/StatsEquipment.cs using Guid(6e63c490c8dd2ac42a980642f2885ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31224fa7c5175aa74a7d3868a140e9e2') in 0.012122 seconds
-  Import took 0.045856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.456943 seconds.
-  path: Assets/Scripts/Inventories/StatsEquipableItem.cs
-  artifactKey: Guid(964d381fbccf47747bb712aa809274f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Inventories/StatsEquipableItem.cs using Guid(964d381fbccf47747bb712aa809274f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4653299ef6f1b2e1fadb52596751b74') in 0.028221 seconds
-  Import took 0.085557 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001743 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.429 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.9 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2846.
-Total: 3.130700 ms (FindLiveObjects: 0.402900 ms CreateObjectMapping: 0.256400 ms MarkObjects: 2.344900 ms  DeleteObjects: 0.125000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002129 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.693 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 132.9 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2846.
-Total: 3.180600 ms (FindLiveObjects: 0.409300 ms CreateObjectMapping: 0.259000 ms MarkObjects: 2.384800 ms  DeleteObjects: 0.125500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 403.935900 seconds.
-  path: Assets/Scripts/Inventories/StatsEquipableItem.cs
-  artifactKey: Guid(964d381fbccf47747bb712aa809274f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Inventories/StatsEquipableItem.cs using Guid(964d381fbccf47747bb712aa809274f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12e72161c2c682d3dada1f2578f14ce') in 0.014197 seconds
-  Import took 0.048424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.332300 seconds.
-  path: Assets/Game/Wearables/Resources/Healthy Hat.asset
-  artifactKey: Guid(e030b6b090d82274699f65bbafde1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Wearables/Resources/Healthy Hat.asset using Guid(e030b6b090d82274699f65bbafde1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f88004a901a1eb708e38581d9badd2c') in 0.043277 seconds
-  Import took 0.069865 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.973714 seconds.
-  path: Assets/Game/Wearables/Resources/Healthy Hat.asset
-  artifactKey: Guid(e030b6b090d82274699f65bbafde1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Wearables/Resources/Healthy Hat.asset using Guid(e030b6b090d82274699f65bbafde1af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7be323dd5019e47423c2576ce9f021e') in 0.044057 seconds
-  Import took 0.068266 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008750 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.425 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2846.
-Total: 9.399400 ms (FindLiveObjects: 4.178500 ms CreateObjectMapping: 0.469600 ms MarkObjects: 4.566500 ms  DeleteObjects: 0.181500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001853 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.7 MB.
-System memory in use after: 132.9 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2846.
-Total: 3.426800 ms (FindLiveObjects: 0.466600 ms CreateObjectMapping: 0.456100 ms MarkObjects: 2.372200 ms  DeleteObjects: 0.130200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001775 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.29 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.056 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2846.
-Total: 3.109100 ms (FindLiveObjects: 0.396200 ms CreateObjectMapping: 0.256100 ms MarkObjects: 2.257900 ms  DeleteObjects: 0.197500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002092 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.070 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2247 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.8 MB.
-System memory in use after: 133.0 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2846.
-Total: 3.819100 ms (FindLiveObjects: 0.538700 ms CreateObjectMapping: 0.360100 ms MarkObjects: 2.777500 ms  DeleteObjects: 0.140300 ms)
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2877.
+Total: 3.292931 ms (FindLiveObjects: 0.648876 ms CreateObjectMapping: 0.241874 ms MarkObjects: 2.256890 ms  DeleteObjects: 0.144333 ms)
 
