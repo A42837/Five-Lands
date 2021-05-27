@@ -13,6 +13,7 @@ namespace RPG.Companion
         [SerializeField] Transform player;
         [SerializeField] Projectile projectile;
         [SerializeField] Transform mouth;
+        [SerializeField] float attackDistance = 10;
 
         bool isAttacking = false, isChasing = false, isTargetAlive;
         float rotSpeed = 3.0f, moveSpeed = 4.0f;
@@ -34,6 +35,7 @@ namespace RPG.Companion
         {
             if (!isAttacking)
             {
+                /*
                 foreach (GameObject enemy in enemies)
                 {
                     if (Vector3.Distance(enemy.transform.position, transform.position) <= 15)
@@ -47,8 +49,16 @@ namespace RPG.Companion
                         }
                     }
                 }
+                */
+                GameObject doesPlayerHaveATarget = player.GetComponent<Fighter>().getCombatTarget();
+                if (doesPlayerHaveATarget != null)
+                {
+                    isTargetAlive = true;
+                    isAttacking = true;
+                    target = doesPlayerHaveATarget;
+                }
 
-                if (Vector3.Distance(transform.position, player.position) > 2) Follow();
+                if (Vector3.Distance(navMeshAgent.transform.position, player.position) > 2) Follow();
 
                 else
                 {
@@ -66,7 +76,8 @@ namespace RPG.Companion
                     isTargetAlive = false;
                     isAttacking = false;
                 }
-                else if (Vector3.Distance(target.transform.position, transform.position) > 10) Chase();
+                else if (Vector3.Distance(targetHealth.transform.position, navMeshAgent.transform.position) > attackDistance) Chase();
+
                 else Attack();
             }
         }
@@ -159,6 +170,14 @@ namespace RPG.Companion
             projectileInstance.setTarget(targetHealth, target, damage);
         }
         */
+
+        //para visualizar Gizmos, apenas do objecto que tiver selecionado 
+        private void OnDrawGizmosSelected()
+        {
+            Gizmos.color = Color.blue;
+            Gizmos.DrawWireSphere(transform.position, attackDistance);
+
+        }
 
     }
 }

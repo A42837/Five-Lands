@@ -24,6 +24,7 @@ namespace RPG.Combat{
         Equipment equipment;
         float timeSinceLastAttack = Mathf.Infinity;
         WeaponConfig currentWeaponConfig;
+        GameObject combatTarget;
 
         LazyValue<Weapon> currentWeapon;
 
@@ -86,13 +87,15 @@ namespace RPG.Combat{
             if (target != null && !GetIsInRange())
             {
                 GetComponent<Mover>().MoveTo(target.transform.position, 1f);
+
             }
             else
             {
+
                 //este IF e para excluir o caso do companion!
                 if(GetComponent<Companion_Behavior>() == null)
                 {
-                    GetComponent<Mover>().Cancel(); //para o movimento
+                    GetComponent<Mover>().Cancel(); //parar o movimento
                     AttackBehaviour();
                 }
             }
@@ -163,9 +166,21 @@ namespace RPG.Combat{
         }
 
         public void Attack(GameObject combatTarget){
+            //para a spider ficar com o target do player:
+            setCombatTarget(combatTarget);
             //print("Attacked !");
             GetComponent<ActionScheduler>().StartAction(this);
             target = combatTarget.GetComponent<Health>();
+        }
+
+        //usar com cuidado! e usada pela spider!
+        public GameObject getCombatTarget()
+        {
+            return combatTarget;
+        }
+        private void setCombatTarget(GameObject combatTarget)
+        {
+            this.combatTarget = combatTarget;
         }
 
         public void Cancel()
