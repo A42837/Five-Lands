@@ -7,6 +7,7 @@ using RPG.Attributes;
 //da erro no visual studio e tambem no using, mas o unity compila e funciona na mesma lol
 using UnityEngine.EventSystems;
 using System;
+using GameDevTV.Inventories;
 
 namespace RPG.Control
 {
@@ -41,6 +42,8 @@ namespace RPG.Control
 
         private void Update()
         {
+            CheckSpecialAbilityKeys();
+
             //verificar se o rato esta em cima do UI:
             if (InteractWithUI()) return ;
 
@@ -58,6 +61,15 @@ namespace RPG.Control
             //print("Nothing to do ");
 
             SetCursor(CursorType.None);
+        }
+
+        private void CheckSpecialAbilityKeys()
+        {
+            var actionStore = GetComponent<ActionStore>();
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                actionStore.Use(0, gameObject);
+            }
         }
 
         //posso por exemplo  ter uma porta, que e um component, que reporta um icone diferente ! que responde a raycastable, da mesma maneira 

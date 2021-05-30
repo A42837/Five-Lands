@@ -16,16 +16,16 @@ MonoBehaviour:
   - item: {fileID: 11400000, guid: 71d3aae98ec2014438c1b1381bd4e3b1, type: 2}
     relativeChance:
     - 1
-    minNumber: 0100000002000000
-    maxNumber: 0200000005000000
+    minNumber: 0000000000000000
+    maxNumber: 0100000001000000
   - item: {fileID: 11400000, guid: cbfae5dc8d2d20f47bf04f811dac9cc8, type: 2}
     relativeChance:
     - 1
-    minNumber: 0200000003000000
-    maxNumber: 0300000004000000
-  - item: {fileID: 11400000, guid: d83f72d93673c6f4d960fa8d405803e0, type: 2}
+    minNumber: 0000000000000000
+    maxNumber: 0100000001000000
+  - item: {fileID: 11400000, guid: 1c16badd76db0494e88aeb05003121f6, type: 2}
     relativeChance:
-    - 1
+    - 5
     minNumber: 0200000003000000
     maxNumber: 0300000004000000
   dropChancePercentage:
