@@ -19,12 +19,15 @@ namespace RPG.Combat{
         [SerializeField] Transform rightHandTransform = null;
         [SerializeField] Transform leftHandTransform = null;
         [SerializeField] WeaponConfig defaultWeapon = null;
+        [Tooltip("float value to use in case the model is not a humanoid, to start a melee attack from a distance, giving the impression it's actually hiting closer to the player. Applied to all weapons. Should be equal to the navmesh Radius")]
+        [SerializeField] float distanceToStartAttacking = 0f;
 
         Health target;
         Equipment equipment;
         float timeSinceLastAttack = Mathf.Infinity;
         WeaponConfig currentWeaponConfig;
         GameObject combatTarget;
+        private bool rangedDragonAttack = false;
 
         LazyValue<Weapon> currentWeapon;
 
@@ -39,6 +42,16 @@ namespace RPG.Combat{
             }
             
 
+        }
+
+        public WeaponConfig getDefaultWeapon()
+        {
+            return defaultWeapon;
+        }
+
+        public float getdistanceToStartAttacking()
+        {
+            return distanceToStartAttacking;
         }
 
         private void UpdateWeapon()
@@ -84,7 +97,7 @@ namespace RPG.Combat{
             if (target == null) return;
             if (target.IsDead()) return;
 
-            if (target != null && !GetIsInRange())
+            if (target != null && !GetIsInRange() )
             {
                 GetComponent<Mover>().MoveTo(target.transform.position, 1f);
 
@@ -155,7 +168,8 @@ namespace RPG.Combat{
 
         private bool GetIsInRange()
         {
-            return Vector3.Distance(transform.position, target.transform.position) < currentWeaponConfig.GetRange();
+            //return Vector3.Distance(transform.position, target.transform.position) < currentWeaponConfig.GetRange();
+            return Vector3.Distance(transform.position, target.transform.position) < (currentWeaponConfig.GetRange()+ distanceToStartAttacking); 
         }
 
         public bool CanAttack(GameObject combatTarget){
@@ -185,14 +199,17 @@ namespace RPG.Combat{
 
         public void Cancel()
         {
+            //no hit do AI controller, ver se a distancia ainda justifica o attack, caso contrario, chamo isto para parar (POR FAZER)
+            print("Cancel attack animation called!");
             StopAttack();
             target = null;
-            GetComponent<Mover>().Cancel(); //para o movimento
+            GetComponent<Mover>().Cancel(); //parar o movimento
         }
 
         private void StopAttack()
         {
             GetComponent<Animator>().ResetTrigger("attack");
+            GetComponent<Animator>().ResetTrigger("RangedAttackDragon");
             GetComponent<Animator>().SetTrigger("stopAttack");
         }
 

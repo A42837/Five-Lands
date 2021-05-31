@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5391a6c0e340445bff9ae5b66fa570, type: 3}
+  m_Name: DragonFlameThrower
+  m_EditorClassIdentifier: 
+  itemID: 0d8ee268-fffe-4f50-9ac6-5f83da8db2f7
+  displayName: dragon flamethower
+  description: 
+  icon: {fileID: 0}
+  pickup: {fileID: 0}
+  stackable: 0
+  allowedEquipLocation: 5
+  animatorOverride: {fileID: 22100000, guid: 8d39feffc2a2e8843a1a841317a70cac, type: 2}
+  equippedPrefab: {fileID: 2666891238086197470, guid: 8cefb9c2ff064104393f2fdd31034424, type: 3}
+  weaponDamage: 5
+  percentageBonus: 0
+  weaponRange: 20
+  isRightHanded: 0
+  projectile: {fileID: 1522161066683523622, guid: 70b9bd0a30d3d75429534b4cfe61a8b9, type: 3}

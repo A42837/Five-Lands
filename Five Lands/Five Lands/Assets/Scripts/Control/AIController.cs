@@ -21,6 +21,11 @@ namespace RPG.Control{
         [SerializeField] float shoutDistance = 5f;  //distancia a que os inimigos perto vao ser chamados !
         [Tooltip("esta flag serve para AI que nao seja aggresivas, tipo cavalos, vacas...")]
         [SerializeField] bool amIAggressive = true;
+        [Tooltip("This flag is used when the AI is a dragon type")]
+        [SerializeField] bool amIADragon = false;
+        [Tooltip("This is the weapon config dragons use when attacking from a range. The Dragon will cast the fireball at half the chase distance or greater (never bigger than the chase distance itself)")]
+        [SerializeField] WeaponConfig dragonRangedAttack = null;
+
 
         bool hasBeenAggroedRecently = false;
 
@@ -64,11 +69,24 @@ namespace RPG.Control{
         {
 
             if (health.IsDead()) return;
+
+            float dist = Vector3.Distance(player.transform.position, this.transform.position);
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                print("dist--->" + dist);
+            }
+            if (amIADragon && dist >= (chaseDistance / 2) && dist < chaseDistance)
+            {
+                AttackBehaviour();
+                fighter.EquipWeapon(dragonRangedAttack);
+                return;
+            }
             if (IsAggrevated(player) && fighter.CanAttack(player))
             {
                 //ATACK STATE
                 //print(gameObject.name + " Chaseeee!");
                 AttackBehaviour();
+                fighter.EquipWeapon(GetComponent<Fighter>().getDefaultWeapon());
             }
 
             else if (timeSinceLastSawPlayer < suspicionTime)

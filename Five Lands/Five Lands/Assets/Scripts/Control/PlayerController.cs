@@ -57,7 +57,8 @@ namespace RPG.Control
 
             //prioridades são: ataco primeiro, caso nao seja atacável, desloco-me para esse sitio
             if( WASDMove() ) return;
-            if (InteractWithMovement()) return;
+            if (InteractWithMovement()) ;
+            //if (InteractWithMovement()) return ;
             //print("Nothing to do ");
 
             SetCursor(CursorType.None);
@@ -69,6 +70,10 @@ namespace RPG.Control
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 actionStore.Use(0, gameObject);
+            }
+            if (Input.GetKeyDown(KeyCode.Alpha2))
+            {
+                actionStore.Use(1, gameObject);
             }
         }
 
