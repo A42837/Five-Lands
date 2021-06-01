@@ -1,250 +1,40 @@
 Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 8130 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
+C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< HEAD
-49599
-Successfully changed project path to: /Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
-/Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 124.85 ms, found 0 plugins.
-=======
 54159
 Successfully changed project path to: C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 132.56 ms, found 0 plugins.
->>>>>>> 863b855b29fa745a17dec5610c1d74c98e90a283
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-01 16:47:31.185 Unity[1979:41560] Color LCD preferred device: NVIDIA GeForce GT 750M (high power)
-2021-06-01 16:47:31.185 Unity[1979:41560] Metal devices available: 2
-2021-06-01 16:47:31.186 Unity[1979:41560] 0: NVIDIA GeForce GT 750M (high power)
-2021-06-01 16:47:31.186 Unity[1979:41560] 1: Intel Iris Pro Graphics (low power)
-2021-06-01 16:47:31.186 Unity[1979:41560] Using device NVIDIA GeForce GT 750M (high power)
-Initializing Metal device caps: NVIDIA GeForce GT 750M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   
+    VRAM:     1998 MB
+    Driver:   27.21.14.5671
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-<<<<<<< HEAD
-Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56979
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000543 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 113.98 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.556 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.002639 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 114.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.385 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 270.6 MB.
-System memory in use after: 270.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2850.
-Total: 2.954247 ms (FindLiveObjects: 0.375662 ms CreateObjectMapping: 0.170440 ms MarkObjects: 2.182630 ms  DeleteObjects: 0.224040 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Game/HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849f5e079aad4caaaede3e8a95db4f00') in 0.313873 seconds
-  Import took 0.320961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Game/UI/HUD.prefab
-  artifactKey: Guid(dfa1fea09ce277e498151ff42e7211a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/HUD.prefab using Guid(dfa1fea09ce277e498151ff42e7211a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af16f991b69bd8b39f2a42a0d8cfb909') in 0.003843 seconds
-  Import took 0.007910 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002196 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.179 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.22 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2251 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 267.6 MB.
-System memory in use after: 267.7 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2852.
-Total: 2.572321 ms (FindLiveObjects: 0.396558 ms CreateObjectMapping: 0.105737 ms MarkObjects: 1.910897 ms  DeleteObjects: 0.157814 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 373.907174 seconds.
-  path: Assets/Game/HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeab79f50706e4095ea618dbd835689c') in 0.062656 seconds
-  Import took 0.069061 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.140415 seconds.
-  path: Assets/Game/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4529bfb55187e955a5f473f50e68a4') in 0.005904 seconds
-  Import took 0.012314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/Game/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4529bfb55187e955a5f473f50e68a4') in 0.004936 seconds
-  Import took 0.010325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.640040 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54de2eb1725d41998b71b25ed4180663') in 0.006034 seconds
-  Import took 0.012136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.480062 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d43afd6e79df9cd01971e6080a16f06') in 0.005777 seconds
-  Import took 0.012172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.616495 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac8eb91a55a7000e36f55c5889431b1') in 0.005443 seconds
-  Import took 0.011391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.440375 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2cb8b11130c13192962497fb1554771') in 0.005457 seconds
-  Import took 0.011264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.427476 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0732253da8ebc8ba1ebe1578370e2f9') in 0.005301 seconds
-  Import took 0.011571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.017089 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1834f7e3cc2b828f1e356d9dff6d06aa') in 0.005179 seconds
-  Import took 0.011103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.811421 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bd14f024c9a9d4d303b444fa5499de') in 0.005425 seconds
-  Import took 0.011780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.217880 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd77d60687f5a98959ff835f8b9a0ed9') in 0.005374 seconds
-  Import took 0.011581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.607166 seconds.
-  path: Assets/Game/UI/NEW HUD.prefab
-  artifactKey: Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/NEW HUD.prefab using Guid(a06564c9e992249a18d3953a1240c51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c60f70a7431688ea705f0fe5f0fdac8a') in 0.005197 seconds
-  Import took 0.011457 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001409 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2251 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 268.1 MB.
-System memory in use after: 268.2 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2852.
-Total: 3.494462 ms (FindLiveObjects: 0.437380 ms CreateObjectMapping: 0.299933 ms MarkObjects: 2.604191 ms  DeleteObjects: 0.151780 ms)
-
-=======
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56932
 Begin MonoManager ReloadAssembly
->>>>>>> 863b855b29fa745a17dec5610c1d74c98e90a283
