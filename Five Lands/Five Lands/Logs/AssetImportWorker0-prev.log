@@ -15,11 +15,11 @@ C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59960
+52217
 Successfully changed project path to: C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 210.01 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 108.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -36,5 +36,1217 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002382 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 113.22 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.269 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001774 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 112.21 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 145.0 MB.
+System memory in use after: 145.1 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2850.
+Total: 2.960900 ms (FindLiveObjects: 0.343300 ms CreateObjectMapping: 0.285700 ms MarkObjects: 2.130200 ms  DeleteObjects: 0.200500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(543ace3abae2f6541b59bd834b51e621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(543ace3abae2f6541b59bd834b51e621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58936a659e2f92c36632cdc4c01054c9') in 0.062832 seconds
+  Import took 0.096051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.755413 seconds.
+  path: Assets/Desert Terrain.asset
+  artifactKey: Guid(543ace3abae2f6541b59bd834b51e621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Terrain.asset using Guid(543ace3abae2f6541b59bd834b51e621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c95303a35a72d6f6e949c8ce6ee2ca') in 0.008625 seconds
+  Import took 0.030462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 272.391323 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5de3571b24d1571034fcc31df35d578') in 0.534157 seconds
+  Import took 0.613094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- UI/Montserrat-Regular.ttf
+  artifactKey: Guid(10bf48ef695413841b74ebca8d9c744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- UI/Montserrat-Regular.ttf using Guid(10bf48ef695413841b74ebca8d9c744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3072fcaa88c25544c2b47fe3715f7df') in 1.061836 seconds
+  Import took 1.094916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006282 seconds.
+  path: Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- UI/Montserrat-Regular.ttf
+  artifactKey: Guid(10bf48ef695413841b74ebca8d9c744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/polyperfect/Low Poly Animated Animals/- UI/Montserrat-Regular.ttf using Guid(10bf48ef695413841b74ebca8d9c744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3072fcaa88c25544c2b47fe3715f7df') in 0.026787 seconds
+  Import took 0.033352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075077 seconds.
+  path: Assets/New Water/StylisedWater/URP/Textures/greyboxing-01.png
+  artifactKey: Guid(6b579d01d44fb9e4ea979f8b3a559836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Water/StylisedWater/URP/Textures/greyboxing-01.png using Guid(6b579d01d44fb9e4ea979f8b3a559836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78158af8f22ff5d1b3ef1e08acf89a08') in 0.082503 seconds
+  Import took 0.158274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'TextMeshPro/Mobile/Distance Field': Couldn't open include file 'TMPro_Properties.cginc'. at line 91
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: OUTLINE_ON UNDERLAY_ON UNDERLAY_INNER UNITY_UI_CLIP_RECT UNITY_UI_ALPHACLIP UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+Shader error in 'TextMeshPro/Mobile/Distance Field': Couldn't open include file 'TMPro_Properties.cginc'. at line 91
+
+Compiling Vertex program
+Platform defines: UNITY_ENABLE_REFLECTION_BUFFERS UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING UNITY_ENABLE_DETAIL_NORMALMAP SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_LIGHTMAP_FULL_HDR
+Disabled keywords: OUTLINE_ON UNDERLAY_ON UNDERLAY_INNER UNITY_UI_CLIP_RECT UNITY_UI_ALPHACLIP UNITY_NO_DXT5nm UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_NO_FULL_STANDARD_SHADER UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_VIRTUAL_TEXTURING UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_ASTC_NORMALMAP_ENCODING SHADER_API_GLES30
+
+ -> (artifact id: '49799c7f63431895a9492710e333f0c9') in 0.126448 seconds
+  Import took 0.156080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/New Water/StylisedWater/URP/Textures/greyboxing-01.png
+  artifactKey: Guid(6b579d01d44fb9e4ea979f8b3a559836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Water/StylisedWater/URP/Textures/greyboxing-01.png using Guid(6b579d01d44fb9e4ea979f8b3a559836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78158af8f22ff5d1b3ef1e08acf89a08') in 0.010176 seconds
+  Import took 0.017100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18442abbfe1b9cc2961cc2d90a8f722a') in 0.052315 seconds
+  Import took 0.066702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.006162 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-0_comp_dir.png
+  artifactKey: Guid(3107e0e5028ca4d8b9023d89d507fd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-0_comp_dir.png using Guid(3107e0e5028ca4d8b9023d89d507fd0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69d2f97aad7796496624ce2b886f110a') in 0.136643 seconds
+  Import took 0.215959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-148_comp_shadowmask.png
+  artifactKey: Guid(b5b243c50e9ca4cbda08403e8184ce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-148_comp_shadowmask.png using Guid(b5b243c50e9ca4cbda08403e8184ce15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294ec53c3126e7e357ae7411874a910a') in 0.054314 seconds
+  Import took 0.077976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-65_comp_light.exr
+  artifactKey: Guid(b10a4e866b42f4125b030c8799f4f7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-65_comp_light.exr using Guid(b10a4e866b42f4125b030c8799f4f7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9344bba1e89048766c8db3937a96e04') in 1.423000 seconds
+  Import took 1.473913 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-136_comp_shadowmask.png
+  artifactKey: Guid(bd388c61a9dd94df397c19b11d1de416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-136_comp_shadowmask.png using Guid(bd388c61a9dd94df397c19b11d1de416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ec6c6c3398c0cae80a2be8a4b0dca9') in 0.051035 seconds
+  Import took 0.076290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-15_comp_light.exr
+  artifactKey: Guid(3a2406840720549de98a34c1a09f00e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-15_comp_light.exr using Guid(3a2406840720549de98a34c1a09f00e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f21cda1fe4c21e634c1e98056fbfe5fa') in 0.091211 seconds
+  Import took 0.133953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-23_comp_dir.png
+  artifactKey: Guid(5153ccd81f9af4788ba5681843eb0987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-23_comp_dir.png using Guid(5153ccd81f9af4788ba5681843eb0987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a03bbdda529287efcd48115eb6cbb32') in 0.093514 seconds
+  Import took 0.144617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-142_comp_light.exr
+  artifactKey: Guid(d6aaa6b76e3b242be888549f48ba7237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-142_comp_light.exr using Guid(d6aaa6b76e3b242be888549f48ba7237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00e67d0924782aae0004f71811e7206') in 0.028716 seconds
+  Import took 0.056372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-110_comp_dir.png
+  artifactKey: Guid(0bc798464292144a384dd120317cdff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-110_comp_dir.png using Guid(0bc798464292144a384dd120317cdff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79bebcdc8170b56b5ab66355b1b0da6') in 0.025177 seconds
+  Import took 0.055513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-11_comp_shadowmask.png
+  artifactKey: Guid(a1d1cb8bd644b469bbd0c3ef31a30d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-11_comp_shadowmask.png using Guid(a1d1cb8bd644b469bbd0c3ef31a30d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031d43317b591fcc6b611723c970cbb5') in 0.151973 seconds
+  Import took 0.202818 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(4fbf2e0aad2d04faeabc44aec972b240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-0_comp_shadowmask.png using Guid(4fbf2e0aad2d04faeabc44aec972b240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ea319db710b5771e42a64d1abe47073') in 0.176928 seconds
+  Import took 0.231692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-135_comp_dir.png
+  artifactKey: Guid(9793e4600bef34c94bcf61dfcbf79125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-135_comp_dir.png using Guid(9793e4600bef34c94bcf61dfcbf79125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6ffe5bbfc9c6d4f1a1d41850c669f6') in 0.023946 seconds
+  Import took 0.084792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-93_comp_dir.png
+  artifactKey: Guid(f8026cbe796934b74b5850fcc1af7fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-93_comp_dir.png using Guid(f8026cbe796934b74b5850fcc1af7fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2a9bda49efe96a522decc37bf104a2') in 0.060563 seconds
+  Import took 0.088520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-75_comp_dir.png
+  artifactKey: Guid(d2f4c4965872547c9ac0f0ae6f66e27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-75_comp_dir.png using Guid(d2f4c4965872547c9ac0f0ae6f66e27a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd3088e7e696a5479a5a376d7f93450') in 0.103685 seconds
+  Import took 0.164410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-147_comp_dir.png
+  artifactKey: Guid(250ae433d5d1d4e12ab5461931fff86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-147_comp_dir.png using Guid(250ae433d5d1d4e12ab5461931fff86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e08037609af40ff0b9174fa8ce00675') in 0.021056 seconds
+  Import took 0.072447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-104_comp_shadowmask.png
+  artifactKey: Guid(3567460365aec4daeab7f01b5579d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-104_comp_shadowmask.png using Guid(3567460365aec4daeab7f01b5579d5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95775ee5029703042d0edb000157a32') in 0.027218 seconds
+  Import took 0.055044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-61_comp_shadowmask.png
+  artifactKey: Guid(ac3fb5bf77a354ae69f32444c9b41de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-61_comp_shadowmask.png using Guid(ac3fb5bf77a354ae69f32444c9b41de6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b54deb1bf46694123234a6cbcf79ac') in 0.126422 seconds
+  Import took 0.193202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-129_comp_light.exr
+  artifactKey: Guid(9a33b53e5466e41c89526b10e7c146bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-129_comp_light.exr using Guid(9a33b53e5466e41c89526b10e7c146bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef67f17580b8f21a2d45dddd83521e73') in 0.029709 seconds
+  Import took 0.036004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-51_comp_shadowmask.png
+  artifactKey: Guid(b7745fe3b205a4fdd8e3e5829febec8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-51_comp_shadowmask.png using Guid(b7745fe3b205a4fdd8e3e5829febec8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0291d1df582dfbe6793744090bf7aeea') in 0.089844 seconds
+  Import took 0.182544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-32_comp_light.exr
+  artifactKey: Guid(6dba7200063a147c1becdd135a7333e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-32_comp_light.exr using Guid(6dba7200063a147c1becdd135a7333e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17e5ea8d690d5fd664909782e7e1652') in 0.132936 seconds
+  Import took 0.194895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-42_comp_shadowmask.png
+  artifactKey: Guid(75303df1184884e8eaa1fb3f5a5fccb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-42_comp_shadowmask.png using Guid(75303df1184884e8eaa1fb3f5a5fccb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdf8b1e51860920ebb3e8871433d5e4') in 0.130658 seconds
+  Import took 0.160757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-27_comp_dir.png
+  artifactKey: Guid(b699d1c1b086a48058eb15fceb242214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-27_comp_dir.png using Guid(b699d1c1b086a48058eb15fceb242214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6938810369743d42cb66202976af4caf') in 0.100376 seconds
+  Import took 0.150811 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-48_comp_light.exr
+  artifactKey: Guid(2bdc1a2f8c8ac41c1b2b2c141f62a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-48_comp_light.exr using Guid(2bdc1a2f8c8ac41c1b2b2c141f62a41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adb39c187daf192ead7d5afd3c2fff0d') in 0.129633 seconds
+  Import took 0.192838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-105_comp_dir.png
+  artifactKey: Guid(8260116f9a3de4dbd869d5c48b37dc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-105_comp_dir.png using Guid(8260116f9a3de4dbd869d5c48b37dc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30bf34c44f830ddf41e383f9157f9231') in 0.019091 seconds
+  Import took 0.071217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-59_comp_shadowmask.png
+  artifactKey: Guid(e56206e599e0340baa057af74b8da8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-59_comp_shadowmask.png using Guid(e56206e599e0340baa057af74b8da8d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a9998f153a643dcece57cb61c8a033') in 0.094021 seconds
+  Import took 0.117257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-43_comp_dir.png
+  artifactKey: Guid(819514d11a85a492897a6b5b91f5aed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-43_comp_dir.png using Guid(819514d11a85a492897a6b5b91f5aed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac540dd34c90b5a64c41a57aa3d8dfe0') in 0.091859 seconds
+  Import took 0.133219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-16_comp_dir.png
+  artifactKey: Guid(46b1b1e5d8e0d4ec48b1f6618ceb0c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-16_comp_dir.png using Guid(46b1b1e5d8e0d4ec48b1f6618ceb0c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aa9743a7210566a57a9537d61b59f0') in 0.087727 seconds
+  Import took 0.120637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-20_comp_dir.png
+  artifactKey: Guid(a1bc1a9f766eb44d2830dce0910bdb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-20_comp_dir.png using Guid(a1bc1a9f766eb44d2830dce0910bdb43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8797497a91b73f5ff522a7c553bcb86b') in 0.075140 seconds
+  Import took 0.091573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-102_comp_light.exr
+  artifactKey: Guid(0e5d37e044e7543639d39c9445d0bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-102_comp_light.exr using Guid(0e5d37e044e7543639d39c9445d0bbea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6c41d7e4bc3764b42a1af439f06cc00') in 0.028191 seconds
+  Import took 0.080502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-86_comp_light.exr
+  artifactKey: Guid(a192e814fe8744de5aa71eb5e2296493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-86_comp_light.exr using Guid(a192e814fe8744de5aa71eb5e2296493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc88d4bce3dc7677bc559b1d32da98d3') in 0.043908 seconds
+  Import took 0.065171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-41_comp_light.exr
+  artifactKey: Guid(12f0053a779e840c7ab57656993ba59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-41_comp_light.exr using Guid(12f0053a779e840c7ab57656993ba59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a0be7c0e00922caf13bd98671780e9b') in 0.082642 seconds
+  Import took 0.118219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-42_comp_light.exr
+  artifactKey: Guid(2fa390f725dfe4c5887d1bb63283e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-42_comp_light.exr using Guid(2fa390f725dfe4c5887d1bb63283e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225f378820c1cbe058e625d0d224bb06') in 0.110898 seconds
+  Import took 0.171710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-3_comp_dir.png
+  artifactKey: Guid(1da5926e800dc4417ae54ecbb46178a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-3_comp_dir.png using Guid(1da5926e800dc4417ae54ecbb46178a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'affdce18433ffbab2495e8ea2a55951f') in 0.126406 seconds
+  Import took 0.158145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-105_comp_light.exr
+  artifactKey: Guid(c455926c433464582848360fe36ca1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-105_comp_light.exr using Guid(c455926c433464582848360fe36ca1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94566437ee280007b6482ed37455551b') in 0.047396 seconds
+  Import took 0.091177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-108_comp_shadowmask.png
+  artifactKey: Guid(ed134e89f4ad244769fdc37f300cdc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-108_comp_shadowmask.png using Guid(ed134e89f4ad244769fdc37f300cdc27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c705bb9678f29e150167cd565ed100') in 0.038933 seconds
+  Import took 0.098247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-145_comp_light.exr
+  artifactKey: Guid(45b416975cf544aaa9b2cd6e352e306a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-145_comp_light.exr using Guid(45b416975cf544aaa9b2cd6e352e306a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80cacc1e6f085790645522148d69c65') in 0.022520 seconds
+  Import took 0.050750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-21_comp_shadowmask.png
+  artifactKey: Guid(0e0688ea0cd5a425c9d7b0848273d9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-21_comp_shadowmask.png using Guid(0e0688ea0cd5a425c9d7b0848273d9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e67ca7f66f8e879ba09b5485c4482ee') in 0.124014 seconds
+  Import took 0.177975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-87_comp_light.exr
+  artifactKey: Guid(aa19285a4cd314a7f9c7311dc16dd927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-87_comp_light.exr using Guid(aa19285a4cd314a7f9c7311dc16dd927) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532d53c5b6712d6c71e94aa710e82632') in 0.045534 seconds
+  Import took 0.103812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-56_comp_dir.png
+  artifactKey: Guid(c0e2d657d93144394948453e6f103972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-56_comp_dir.png using Guid(c0e2d657d93144394948453e6f103972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '196dd8de26fb4a7089580c960979ef2c') in 0.071307 seconds
+  Import took 0.130360 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-133_comp_dir.png
+  artifactKey: Guid(003d8032988d84f29b6adc5b5cdc2e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-133_comp_dir.png using Guid(003d8032988d84f29b6adc5b5cdc2e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe2f1419929689c3bf1fb84ea81cd3c0') in 0.025215 seconds
+  Import took 0.077654 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-102_comp_dir.png
+  artifactKey: Guid(6dd0f500f2df941129075d57f57ea54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-102_comp_dir.png using Guid(6dd0f500f2df941129075d57f57ea54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f79dbb0981edc97f6cd814e73e7579') in 0.022111 seconds
+  Import took 0.094930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-94_comp_dir.png
+  artifactKey: Guid(3ab1b2a4986874ced96823106a914a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-94_comp_dir.png using Guid(3ab1b2a4986874ced96823106a914a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '428c0645e38f18d3299c44c1c46a4c98') in 0.083824 seconds
+  Import took 0.157928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-25_comp_dir.png
+  artifactKey: Guid(f2ff9007576c84915baa5c38d29025e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-25_comp_dir.png using Guid(f2ff9007576c84915baa5c38d29025e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ac88ea545d47f57a3dd42207fbcc62') in 0.114292 seconds
+  Import took 0.136928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-49_comp_light.exr
+  artifactKey: Guid(dc6737a74dafd4c5dbf35e4e2257dc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-49_comp_light.exr using Guid(dc6737a74dafd4c5dbf35e4e2257dc7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2cf55570e3d3f392b2d87f06c269da') in 0.115600 seconds
+  Import took 0.176088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-43_comp_light.exr
+  artifactKey: Guid(51ec19d90c0bf4e2788bc260d302d50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-43_comp_light.exr using Guid(51ec19d90c0bf4e2788bc260d302d50c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3611d71b29f01cc749fa345b92ea38') in 0.098508 seconds
+  Import took 0.104981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-92_comp_shadowmask.png
+  artifactKey: Guid(762e093b5a01f4bf5b95aaf5db2cc03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-92_comp_shadowmask.png using Guid(762e093b5a01f4bf5b95aaf5db2cc03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3c541a68774374b4d8d8f036c33239') in 0.139463 seconds
+  Import took 0.183178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-33_comp_shadowmask.png
+  artifactKey: Guid(d48e67943a0d64242853853a7a3169a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-33_comp_shadowmask.png using Guid(d48e67943a0d64242853853a7a3169a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee22b7499bbd3d29301908ebe606f93') in 0.138164 seconds
+  Import took 0.163407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-51_comp_dir.png
+  artifactKey: Guid(309d56fc8ecfe437984934a336429e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-51_comp_dir.png using Guid(309d56fc8ecfe437984934a336429e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da942c3f1e54aaf4400e111991af2eac') in 0.061970 seconds
+  Import took 0.108874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-98_comp_light.exr
+  artifactKey: Guid(59aca8a6ae4c44b70bf8626f8239dce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-98_comp_light.exr using Guid(59aca8a6ae4c44b70bf8626f8239dce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39bcf522d7e4acaab17a8f0f3b4ad5') in 0.135579 seconds
+  Import took 0.167601 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-83_comp_light.exr
+  artifactKey: Guid(57f183239719d4fe1942c0a4b71536e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-83_comp_light.exr using Guid(57f183239719d4fe1942c0a4b71536e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eee55731112d3fcb77c7fda291a327c') in 0.088906 seconds
+  Import took 0.095022 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-86_comp_shadowmask.png
+  artifactKey: Guid(91277204ca5af427fb605c728183973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-86_comp_shadowmask.png using Guid(91277204ca5af427fb605c728183973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88ff6c82f00e4c6acc7e137b56d6e189') in 0.144491 seconds
+  Import took 0.199768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-140_comp_light.exr
+  artifactKey: Guid(6ef0a7f17c02a4dbb81aaa1941e44f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-140_comp_light.exr using Guid(6ef0a7f17c02a4dbb81aaa1941e44f79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86d68e9f2c7b856683453a7ea73cb8e9') in 0.024049 seconds
+  Import took 0.053286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000580 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-38_comp_shadowmask.png
+  artifactKey: Guid(0802d6ca44a5e4de69792a01d5609220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-38_comp_shadowmask.png using Guid(0802d6ca44a5e4de69792a01d5609220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08fe9fcd73c0ef3fdf8818e45fc1a74') in 0.128298 seconds
+  Import took 0.143855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-9_comp_dir.png
+  artifactKey: Guid(9baf0c51f0101442ab43ccdaa65b538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-9_comp_dir.png using Guid(9baf0c51f0101442ab43ccdaa65b538f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8751dfac88be2298e7603fa07c3860d6') in 0.073527 seconds
+  Import took 0.095859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-86_comp_dir.png
+  artifactKey: Guid(46428fb452df54b818a1d6e74c21d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-86_comp_dir.png using Guid(46428fb452df54b818a1d6e74c21d08c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a6a0fa546acbd1af5268a58d0f13ab') in 0.046472 seconds
+  Import took 0.065123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-147_comp_shadowmask.png
+  artifactKey: Guid(774d7f42e71a94372bb03f0b47c11dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-147_comp_shadowmask.png using Guid(774d7f42e71a94372bb03f0b47c11dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f430798eacd5264d03fe00f277d3548') in 0.036224 seconds
+  Import took 0.054064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-10_comp_shadowmask.png
+  artifactKey: Guid(911b07537707840bcb19dac33bfe1cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-10_comp_shadowmask.png using Guid(911b07537707840bcb19dac33bfe1cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140c533e3e6c4481062cd3ee223a0cac') in 0.079704 seconds
+  Import took 0.110271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-14_comp_dir.png
+  artifactKey: Guid(c68628f50e9e840c4933182e25fede89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-14_comp_dir.png using Guid(c68628f50e9e840c4933182e25fede89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff559e6a3c2fd02a240a5564c33064fa') in 0.045701 seconds
+  Import took 0.064475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-6_comp_dir.png
+  artifactKey: Guid(5f7bc2759545c45e089479d1842a26af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-6_comp_dir.png using Guid(5f7bc2759545c45e089479d1842a26af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '063278fe427777d9308dadf96b98d10e') in 0.082507 seconds
+  Import took 0.113334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-0_comp_light.exr
+  artifactKey: Guid(20502cf1325c34dbe874babbfa1b4c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-0_comp_light.exr using Guid(20502cf1325c34dbe874babbfa1b4c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4c01e3b734821e83ea977595e5a6d1') in 0.069280 seconds
+  Import took 0.114069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-83_comp_shadowmask.png
+  artifactKey: Guid(dd8bbdfabda794b09a815dc71b71fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-83_comp_shadowmask.png using Guid(dd8bbdfabda794b09a815dc71b71fbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f94e200005048a6058f206e0e66e05f') in 0.058427 seconds
+  Import took 0.089672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-35_comp_dir.png
+  artifactKey: Guid(fa55020fd206248149e5e35f2ac1948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-35_comp_dir.png using Guid(fa55020fd206248149e5e35f2ac1948b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f419d59e8b46664c7053dc0ac331dd') in 0.042633 seconds
+  Import took 0.066085 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-52_comp_shadowmask.png
+  artifactKey: Guid(31942900f8fa94ead8b6ed69d63ce396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-52_comp_shadowmask.png using Guid(31942900f8fa94ead8b6ed69d63ce396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296a4f3e2ff0f35b54f8498638cec656') in 0.068328 seconds
+  Import took 0.091244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-109_comp_light.exr
+  artifactKey: Guid(3567914f8a55c4a3a95d5594ad86f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-109_comp_light.exr using Guid(3567914f8a55c4a3a95d5594ad86f951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09ee80f8cacd1111ad2e271e5eaf14f') in 0.020383 seconds
+  Import took 0.037382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-63_comp_light.exr
+  artifactKey: Guid(4233114e962d34dcbbe9ded7209c96c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-63_comp_light.exr using Guid(4233114e962d34dcbbe9ded7209c96c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d528c2e0b3131c43b767049d23c6132') in 0.046707 seconds
+  Import took 0.053015 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000453 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-89_comp_dir.png
+  artifactKey: Guid(1a9709f71a39d48ae9083c9f321f6429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-89_comp_dir.png using Guid(1a9709f71a39d48ae9083c9f321f6429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413aca60170f6f7f42e194c26734ec17') in 0.030235 seconds
+  Import took 0.054164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-136_comp_light.exr
+  artifactKey: Guid(dc949c310817b4bd5a3d7fc947bccb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-136_comp_light.exr using Guid(dc949c310817b4bd5a3d7fc947bccb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765a076d0b31c3f5d8c700ebec2a792c') in 0.040939 seconds
+  Import took 0.063207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-70_comp_light.exr
+  artifactKey: Guid(b144b9f2167f74389bda179af29a29e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-70_comp_light.exr using Guid(b144b9f2167f74389bda179af29a29e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d927932cf2866bbb9bd732e5da2f47') in 0.045156 seconds
+  Import took 0.064537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-77_comp_light.exr
+  artifactKey: Guid(34c557638612e4144a30a36f65aadccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-77_comp_light.exr using Guid(34c557638612e4144a30a36f65aadccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402c6a017d2553807eb5751ca68789d2') in 0.051453 seconds
+  Import took 0.073767 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-78_comp_light.exr
+  artifactKey: Guid(0977ac2b776bd4029bce0c9ab0822453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-78_comp_light.exr using Guid(0977ac2b776bd4029bce0c9ab0822453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ecada5b3832c33413392c6bdd2b5a2d') in 0.048106 seconds
+  Import took 0.065753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-60_comp_shadowmask.png
+  artifactKey: Guid(eb95017e690004a45a62175b3a1dd4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-60_comp_shadowmask.png using Guid(eb95017e690004a45a62175b3a1dd4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d136a32ae15d6b222fbe1104124d8b') in 0.097001 seconds
+  Import took 0.121150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-22_comp_shadowmask.png
+  artifactKey: Guid(a88ed727f00b8438ba42388edc87aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-22_comp_shadowmask.png using Guid(a88ed727f00b8438ba42388edc87aa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f17ace58bc1480c0c5f4a22817a2218c') in 0.085616 seconds
+  Import took 0.107125 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-16_comp_shadowmask.png
+  artifactKey: Guid(63a9dde059fb04ca4a5dc974ca48cd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-16_comp_shadowmask.png using Guid(63a9dde059fb04ca4a5dc974ca48cd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c5a73166cecf9942735df89322856f') in 0.088104 seconds
+  Import took 0.100525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-61_comp_light.exr
+  artifactKey: Guid(1ac89f007ba6c4b0991e63ef79c542d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-61_comp_light.exr using Guid(1ac89f007ba6c4b0991e63ef79c542d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc1cd743153d2dc3f5603e7a0d5e543') in 0.044565 seconds
+  Import took 0.074122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-150_comp_shadowmask.png
+  artifactKey: Guid(3186337e32da84c26bd0e31a5bb7491e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-150_comp_shadowmask.png using Guid(3186337e32da84c26bd0e31a5bb7491e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e3b3594e9e998a829623c5c29de0bf') in 0.071018 seconds
+  Import took 0.094499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-117_comp_dir.png
+  artifactKey: Guid(619679195e5bf4a8daece006ea6d6143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-117_comp_dir.png using Guid(619679195e5bf4a8daece006ea6d6143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34726b95d410eb20e4d4424af8784b71') in 0.019532 seconds
+  Import took 0.044160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-80_comp_dir.png
+  artifactKey: Guid(b932853a41f114beab06d5eaa4ac2a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-80_comp_dir.png using Guid(b932853a41f114beab06d5eaa4ac2a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03dc1ac3bd9f0667cfa10311e81e5490') in 0.043947 seconds
+  Import took 0.069905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-91_comp_shadowmask.png
+  artifactKey: Guid(0773cd7b5eda644729042746bcc10db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-91_comp_shadowmask.png using Guid(0773cd7b5eda644729042746bcc10db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaa5180ba66306f0c9b43478f11d257') in 0.060466 seconds
+  Import took 0.083279 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-87_comp_shadowmask.png
+  artifactKey: Guid(061cd03a1bf2e48a0bd30c676702a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-87_comp_shadowmask.png using Guid(061cd03a1bf2e48a0bd30c676702a925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07971f7acc881b53c77811bc40d65764') in 0.059477 seconds
+  Import took 0.079187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-68_comp_light.exr
+  artifactKey: Guid(73204ca25fafc4f1cbdaa8506562cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-68_comp_light.exr using Guid(73204ca25fafc4f1cbdaa8506562cb42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0571038851d8da88c1e0dcc0673f5aa0') in 0.051951 seconds
+  Import took 0.072614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000237 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-6_comp_light.exr
+  artifactKey: Guid(d0c97df26979545a28331c4d0c2a0e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-6_comp_light.exr using Guid(d0c97df26979545a28331c4d0c2a0e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f1c26227d76f88d9001950d07e8b4a') in 0.037027 seconds
+  Import took 0.043148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-113_comp_light.exr
+  artifactKey: Guid(57ea53b1127a745728cd662cba0c38e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-113_comp_light.exr using Guid(57ea53b1127a745728cd662cba0c38e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd0b4dabd8e40ef41d6a8b654cf1a59a') in 0.021655 seconds
+  Import took 0.056391 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-129_comp_dir.png
+  artifactKey: Guid(f7cf22d03f29e44fea2cb55202b7f7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-129_comp_dir.png using Guid(f7cf22d03f29e44fea2cb55202b7f7df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb95fc744d39837ed530eab966ac93dc') in 0.016536 seconds
+  Import took 0.022862 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-84_comp_shadowmask.png
+  artifactKey: Guid(19b5c7ccf03aa44ca9f3ef9b9a3636a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-84_comp_shadowmask.png using Guid(19b5c7ccf03aa44ca9f3ef9b9a3636a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71635fcce1c98501bf891ea0fe2788ec') in 0.068424 seconds
+  Import took 0.082161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-13_comp_shadowmask.png
+  artifactKey: Guid(2f6609be2bc784f6da6c2d9235016058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-13_comp_shadowmask.png using Guid(2f6609be2bc784f6da6c2d9235016058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa7f26185c154b7ec709ac14d9cae8e') in 0.081765 seconds
+  Import took 0.110775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-46_comp_light.exr
+  artifactKey: Guid(618309b15ee7d4b63b8e6e4be21a5763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-46_comp_light.exr using Guid(618309b15ee7d4b63b8e6e4be21a5763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2444c4d4abc416f8195b72f4fb161109') in 0.041613 seconds
+  Import took 0.047514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-138_comp_shadowmask.png
+  artifactKey: Guid(65c0cf8473a7743a6bfe295f7b0715a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-138_comp_shadowmask.png using Guid(65c0cf8473a7743a6bfe295f7b0715a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b6d192d3210535a2ca2c2847ef60d6') in 0.035393 seconds
+  Import took 0.065981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-57_comp_shadowmask.png
+  artifactKey: Guid(e05c4d5644dde4b9d92f2187d1e40318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-57_comp_shadowmask.png using Guid(e05c4d5644dde4b9d92f2187d1e40318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c913ccc5a104d69b45a2720482f9cf') in 0.077795 seconds
+  Import took 0.102179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-29_comp_light.exr
+  artifactKey: Guid(e44123557f3e9453c86f9c6c748e24d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-29_comp_light.exr using Guid(e44123557f3e9453c86f9c6c748e24d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3821a623a33536f4d39c24a6f53a221') in 0.044964 seconds
+  Import took 0.078396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-4_comp_dir.png
+  artifactKey: Guid(0de52bdbf489e4161abb213596f889f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-4_comp_dir.png using Guid(0de52bdbf489e4161abb213596f889f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72e686d99c0160e3b0bdf5278eeada3d') in 0.046895 seconds
+  Import took 0.064646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-45_comp_shadowmask.png
+  artifactKey: Guid(d4ec5f551cb8242aa9e04bdffafcb33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-45_comp_shadowmask.png using Guid(d4ec5f551cb8242aa9e04bdffafcb33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40554e223bc4030d7b4c414f3ca50be') in 0.062831 seconds
+  Import took 0.068524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-138_comp_dir.png
+  artifactKey: Guid(206b4fe7f483c489ead7ca6a1750173e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-138_comp_dir.png using Guid(206b4fe7f483c489ead7ca6a1750173e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b51fb714e371396f09c99737c77b80d') in 0.033994 seconds
+  Import took 0.043229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-107_comp_shadowmask.png
+  artifactKey: Guid(211ee8dca806e4cb1bd6e24d9278bc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-107_comp_shadowmask.png using Guid(211ee8dca806e4cb1bd6e24d9278bc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5345f648d1cb6efaa1e8e98551741e23') in 0.050732 seconds
+  Import took 0.062401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-125_comp_shadowmask.png
+  artifactKey: Guid(3eb0431f62d634ce18a7b9c8eab56e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-125_comp_shadowmask.png using Guid(3eb0431f62d634ce18a7b9c8eab56e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6218552d6a993638f0cab6c45779310') in 0.021755 seconds
+  Import took 0.038681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-124_comp_light.exr
+  artifactKey: Guid(b58e835778e144511ab3f7a391aeab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-124_comp_light.exr using Guid(b58e835778e144511ab3f7a391aeab24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd929af84cd30be4d5bf7cb18e2efc80c') in 0.016475 seconds
+  Import took 0.024955 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-28_comp_light.exr
+  artifactKey: Guid(6b748b3f02586497b9fb729074446047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-28_comp_light.exr using Guid(6b748b3f02586497b9fb729074446047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad6db36afc81268e984b72d56904f0f9') in 0.041981 seconds
+  Import took 0.065259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-117_comp_shadowmask.png
+  artifactKey: Guid(985ae511e948249fda1272ad220f4e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-117_comp_shadowmask.png using Guid(985ae511e948249fda1272ad220f4e23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b923e00e3c1b01e23317a3de48e05291') in 0.023275 seconds
+  Import took 0.028875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-122_comp_shadowmask.png
+  artifactKey: Guid(d569b6a53d853406cad2263a4b8129f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-122_comp_shadowmask.png using Guid(d569b6a53d853406cad2263a4b8129f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702675580c4c0f7664eb45039b60f922') in 0.023444 seconds
+  Import took 0.042613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-88_comp_shadowmask.png
+  artifactKey: Guid(d851b7550e99a471d86e4ae8ac127517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-88_comp_shadowmask.png using Guid(d851b7550e99a471d86e4ae8ac127517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064059e6a3e7701f1d77b49cb059ff2d') in 0.062723 seconds
+  Import took 0.069061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-69_comp_shadowmask.png
+  artifactKey: Guid(f0c58e7f5402a4cc6910e47ed930117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-69_comp_shadowmask.png using Guid(f0c58e7f5402a4cc6910e47ed930117c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91af2fcb57460c1d5981340909d75504') in 0.052169 seconds
+  Import took 0.076170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-44_comp_shadowmask.png
+  artifactKey: Guid(910c06fe58d374c0fb1d1494f736e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-44_comp_shadowmask.png using Guid(910c06fe58d374c0fb1d1494f736e9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc31932058a38dc1c08a21988b856cb') in 0.058723 seconds
+  Import took 0.080261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-114_comp_shadowmask.png
+  artifactKey: Guid(35f67179c4fd0452d8c01f8c131f52b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-114_comp_shadowmask.png using Guid(35f67179c4fd0452d8c01f8c131f52b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56f3e38db0ca7fd737660c84b56c7a0') in 0.054497 seconds
+  Import took 0.059636 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-36_comp_light.exr
+  artifactKey: Guid(4ba590c1a9bcd4178aaa9a0424817076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-36_comp_light.exr using Guid(4ba590c1a9bcd4178aaa9a0424817076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15705c24777dba5f86bbc1ca98580878') in 0.032414 seconds
+  Import took 0.038233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000363 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-122_comp_dir.png
+  artifactKey: Guid(d386d2edf4f7f44b1b4d0c1b520220bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-122_comp_dir.png using Guid(d386d2edf4f7f44b1b4d0c1b520220bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '326ff784f98a9d65ac8a019cd7fc47f6') in 0.016005 seconds
+  Import took 0.042139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-83_comp_dir.png
+  artifactKey: Guid(caee99221721046b8997eae4ca1dfb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-83_comp_dir.png using Guid(caee99221721046b8997eae4ca1dfb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f59e049866655a2bff4c2fec8f76f30c') in 0.037754 seconds
+  Import took 0.044031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-84_comp_dir.png
+  artifactKey: Guid(d813e0834156e4ca2adfadc5704484f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-84_comp_dir.png using Guid(d813e0834156e4ca2adfadc5704484f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4a6423b809329a3aa54ccf8f0e1e82d') in 0.031264 seconds
+  Import took 0.037527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-49_comp_shadowmask.png
+  artifactKey: Guid(1b71a80b557534574bad66e2d659bee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-49_comp_shadowmask.png using Guid(1b71a80b557534574bad66e2d659bee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43357a6d7da2b37c36ff664004be1e4') in 0.050275 seconds
+  Import took 0.078407 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000381 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-15_comp_dir.png
+  artifactKey: Guid(b228c633067124b55961b3e9f3d8aad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-15_comp_dir.png using Guid(b228c633067124b55961b3e9f3d8aad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f2d4c7ec26c33942594031748a495f') in 0.037659 seconds
+  Import took 0.043331 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-127_comp_dir.png
+  artifactKey: Guid(a5c7a5ecc0b944a6e89624ae1b274eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-127_comp_dir.png using Guid(a5c7a5ecc0b944a6e89624ae1b274eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '355b679fe7800513c7a30a04fef53bac') in 0.015463 seconds
+  Import took 0.041332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-69_comp_dir.png
+  artifactKey: Guid(c777a8ed93f5f43b492f63a42a523bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-69_comp_dir.png using Guid(c777a8ed93f5f43b492f63a42a523bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1aa29ece6e186b20f1ac17a598ea130') in 0.040876 seconds
+  Import took 0.047056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-119_comp_light.exr
+  artifactKey: Guid(40d60b96f33dc4599a454ca0973fb3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-119_comp_light.exr using Guid(40d60b96f33dc4599a454ca0973fb3a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '213f1066ac76094622b01787aa1a469a') in 0.016398 seconds
+  Import took 0.022806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-118_comp_light.exr
+  artifactKey: Guid(8a7730f7e906b4e50ae84373af643380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-118_comp_light.exr using Guid(8a7730f7e906b4e50ae84373af643380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d69cdfa40b918e7209fcf607c93651b') in 0.015702 seconds
+  Import took 0.022078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-96_comp_shadowmask.png
+  artifactKey: Guid(b311ef79575974fb39d6f4dbb9b3565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-96_comp_shadowmask.png using Guid(b311ef79575974fb39d6f4dbb9b3565b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5be96a31a691af8456ba9c9ed4defb') in 0.061890 seconds
+  Import took 0.080939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-45_comp_light.exr
+  artifactKey: Guid(0d93cd29b44dc4e54af0cbd6122d3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-45_comp_light.exr using Guid(0d93cd29b44dc4e54af0cbd6122d3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c21d62316ad12096d83cf544b0e23df') in 0.041543 seconds
+  Import took 0.060623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-97_comp_light.exr
+  artifactKey: Guid(2838a77a934a44fe6a63d7d33ed4eedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-97_comp_light.exr using Guid(2838a77a934a44fe6a63d7d33ed4eedb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ebcc40fd389ee0ecac199fbc31a507') in 0.037184 seconds
+  Import took 0.043002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-72_comp_light.exr
+  artifactKey: Guid(34fa9047a3d714575a6432d27353f0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-72_comp_light.exr using Guid(34fa9047a3d714575a6432d27353f0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e3d957d1a95052bb65e6b35d2a5376') in 0.056477 seconds
+  Import took 0.082298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-141_comp_shadowmask.png
+  artifactKey: Guid(2962b89713d3142869d81084e0573ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-141_comp_shadowmask.png using Guid(2962b89713d3142869d81084e0573ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fde25c182c9bbfe6071eaac8c56ddd22') in 0.023528 seconds
+  Import took 0.046683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-80_comp_light.exr
+  artifactKey: Guid(e018a4149dfd74e46855fcad59bd76fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-80_comp_light.exr using Guid(e018a4149dfd74e46855fcad59bd76fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9e14f9b2d07d4e48a0a3e14976ab1a') in 0.074335 seconds
+  Import took 0.101611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-112_comp_dir.png
+  artifactKey: Guid(af4eb35e3b80c4751b5cca30e8413263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-112_comp_dir.png using Guid(af4eb35e3b80c4751b5cca30e8413263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84487f54c2fc91b7f914cfa10d770062') in 0.030788 seconds
+  Import took 0.043328 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-29_comp_dir.png
+  artifactKey: Guid(eac9e31cff0e8407dbf2610d1b7b8920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-29_comp_dir.png using Guid(eac9e31cff0e8407dbf2610d1b7b8920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ca5574ab4f48aaee417625e46d92f2') in 0.037277 seconds
+  Import took 0.052880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-34_comp_shadowmask.png
+  artifactKey: Guid(0192a426315fd48c489a0e8c05856cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-34_comp_shadowmask.png using Guid(0192a426315fd48c489a0e8c05856cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f2196910bbfae780cb484693f2ea7b') in 0.055250 seconds
+  Import took 0.078479 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-143_comp_light.exr
+  artifactKey: Guid(0358b57d8590140f0ab58f4ee81e3f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-143_comp_light.exr using Guid(0358b57d8590140f0ab58f4ee81e3f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79655c55bb503cea5fdec319bed9f808') in 0.016438 seconds
+  Import took 0.042672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-94_comp_shadowmask.png
+  artifactKey: Guid(f68d60858cf8f4cf89d1bba54548a2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-94_comp_shadowmask.png using Guid(f68d60858cf8f4cf89d1bba54548a2af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f33b1f5bdad0d817aab5197949f45a') in 0.044739 seconds
+  Import took 0.077108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-56_comp_shadowmask.png
+  artifactKey: Guid(2affd59fbcc4348aea4da93f5dd8c512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-56_comp_shadowmask.png using Guid(2affd59fbcc4348aea4da93f5dd8c512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad093d8b0d43ba0ca7557c41235f2cc6') in 0.045846 seconds
+  Import took 0.062978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-76_comp_light.exr
+  artifactKey: Guid(b540c15622b6c40aabfab105f302cf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-76_comp_light.exr using Guid(b540c15622b6c40aabfab105f302cf5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd960549d8851115ecb5347cfca57bac3') in 0.066432 seconds
+  Import took 0.087127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-42_comp_dir.png
+  artifactKey: Guid(3e67cbec50645420aa82971e0854f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-42_comp_dir.png using Guid(3e67cbec50645420aa82971e0854f833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb53b38639f005d3cb138a15c9fa48d2') in 0.039767 seconds
+  Import took 0.064542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-127_comp_shadowmask.png
+  artifactKey: Guid(1738c97f32b484e30ad0fe4fc8a80606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-127_comp_shadowmask.png using Guid(1738c97f32b484e30ad0fe4fc8a80606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9c3aaee35b5f752a8d63c3164dafd8') in 0.026194 seconds
+  Import took 0.032679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-114_comp_dir.png
+  artifactKey: Guid(f71df33ef927b406cb04d601cc0fdd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-114_comp_dir.png using Guid(f71df33ef927b406cb04d601cc0fdd48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd57b350b33432a6ee7366d547c06375') in 0.017162 seconds
+  Import took 0.023852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-95_comp_light.exr
+  artifactKey: Guid(871087fb3246f418fadc71f7e836de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-95_comp_light.exr using Guid(871087fb3246f418fadc71f7e836de14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b4bde990affb58e29237fe10aeaafc') in 0.040862 seconds
+  Import took 0.075289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-118_comp_shadowmask.png
+  artifactKey: Guid(d2448b678e1904d4f812c556ae7f08f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-118_comp_shadowmask.png using Guid(d2448b678e1904d4f812c556ae7f08f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552ef651a60f45b88dd5c570f41d6ec4') in 0.024039 seconds
+  Import took 0.031562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-71_comp_dir.png
+  artifactKey: Guid(bcaaaa6070694446983ddecbf4215247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-71_comp_dir.png using Guid(bcaaaa6070694446983ddecbf4215247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04c544e0c5a4b00675a683ceec5bde90') in 0.033471 seconds
+  Import took 0.058498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-46_comp_dir.png
+  artifactKey: Guid(318bbea23746b44afb0894800092ddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-46_comp_dir.png using Guid(318bbea23746b44afb0894800092ddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452c1847d47477e626e5a0e1123b369c') in 0.040580 seconds
+  Import took 0.063882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-122_comp_light.exr
+  artifactKey: Guid(823eae42b830340e2b7d6ba658c32bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-122_comp_light.exr using Guid(823eae42b830340e2b7d6ba658c32bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629dbef3698925cc5c00e22c10adf24f') in 0.032600 seconds
+  Import took 0.070343 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-5_comp_light.exr
+  artifactKey: Guid(0724bcb687992443b876d8b2abc858c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-5_comp_light.exr using Guid(0724bcb687992443b876d8b2abc858c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685523c0db53b536389bf35b478c79cb') in 0.039798 seconds
+  Import took 0.046422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-61_comp_dir.png
+  artifactKey: Guid(6f15afc3a3cca4a96ab3d2262bf486b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-61_comp_dir.png using Guid(6f15afc3a3cca4a96ab3d2262bf486b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c677b3f9d55cccc5c176ac41b39e5a3') in 0.041112 seconds
+  Import took 0.047941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Scenes/Aldeia/Lightmap-54_comp_light.exr
+  artifactKey: Guid(e47a65ceb323742dca28e34813c710b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Aldeia/Lightmap-54_comp_light.exr using Guid(e47a65ceb323742dca28e34813c710b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b4286a15f42f788820d102044772079') in 1.982958 seconds
+  Import took 1.992724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 160.054097 seconds.
+  path: Assets/Scenes/Desert
+  artifactKey: Guid(97d044ec27a874dc394dc027c8fe6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Desert using Guid(97d044ec27a874dc394dc027c8fe6807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e764efebc654154ad7ad14131ece24') in 0.019475 seconds
+  Import took 0.059966 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
