@@ -10,6 +10,7 @@ namespace RPG.Movement{
     public class Mover : MonoBehaviour, IAction, ISaveable {
 
         [SerializeField] Transform target; // este targer e a esfera invisivel para onde vai o player !
+        //comentario de teste para ver se o git funciona !
         [SerializeField] float maxSpeed = 6f;
         NavMeshAgent navMeshAgent;
 
