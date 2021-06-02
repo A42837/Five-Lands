@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da5391a6c0e340445bff9ae5b66fa570, type: 3}
+  m_Name: Ghostly Sword
+  m_EditorClassIdentifier: 
+  itemID: 0441caf3-ee71-4bbb-b5c3-4ff8f24b1953
+  displayName: Sword
+  description: 
+  icon: {fileID: 21300000, guid: d19901b0ee3c38743a7d383bd484b0b5, type: 3}
+  pickup: {fileID: 5224958342789905418, guid: 80f35bbe84436914d86d8457f86fde27, type: 3}
+  stackable: 0
+  allowedEquipLocation: 5
+  animatorOverride: {fileID: 22100000, guid: c468c3cba34574049b6f9db1b38abee7, type: 2}
+  equippedPrefab: {fileID: 2328669406592528699, guid: f23d81dbeae8eed4a956bad13948c79c, type: 3}
+  weaponDamage: 10
+  percentageBonus: 10
+  weaponRange: 2
+  isRightHanded: 1
+  projectile: {fileID: 0}
