@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5391a6c0e340445bff9ae5b66fa570, type: 3}
   m_Name: Fireball
   m_EditorClassIdentifier: 
-  itemID: 5b713293-3f78-4a05-8969-a9c670815a67
+  itemID: 60e4b2fd-4b0f-44f3-861d-5a861a72f605
   displayName: Fireball
   description: 
   icon: {fileID: 21300000, guid: a1ec2c0ddc0da634b85f0f465fec2d0d, type: 3}

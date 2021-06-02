@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da5391a6c0e340445bff9ae5b66fa570, type: 3}
   m_Name: Ghostly Sword
   m_EditorClassIdentifier: 
-  itemID: 0441caf3-ee71-4bbb-b5c3-4ff8f24b1953
+  itemID: c10ec360-8730-42b2-9ccd-ae9c88b35746
   displayName: Sword
   description: 
   icon: {fileID: 21300000, guid: d19901b0ee3c38743a7d383bd484b0b5, type: 3}

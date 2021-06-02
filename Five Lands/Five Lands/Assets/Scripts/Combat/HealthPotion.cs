@@ -4,6 +4,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//This scriptable objects that are loaded from the save file MUST be placed inside a folder named Resources
+
 [CreateAssetMenu(fileName = "HealthPotion", menuName = "Consumables/Health Potion")]
 public class HealthPotion : ActionItem
 {
