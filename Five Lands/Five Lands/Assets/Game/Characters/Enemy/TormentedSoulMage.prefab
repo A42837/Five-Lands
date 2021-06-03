@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &835019215591281728
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7047558410864814, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7851865314146854, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 141362027901870216, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 01ab6d24ec4a55c47a43fef6fda6973e, type: 2}
+    - target: {fileID: 628726065945539861, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_Name
+      value: TormentedSoulMage
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186202287173063462, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: defaultWeapon
+      value: 
+      objectReference: {fileID: 11400000, guid: 56fe911923f869847ae269e740d7968c, type: 2}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1714092815189019242, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1fe5ef0293365ed40ae8b1b1ee834a91, type: 3}
