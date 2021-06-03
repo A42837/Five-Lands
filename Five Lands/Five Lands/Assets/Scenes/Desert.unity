@@ -5941,7 +5941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5946933557964072554, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -570.75
+      value: -566.6761
       objectReference: {fileID: 0}
     - target: {fileID: 5992850091523247708, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_AnchorMax.y
@@ -6033,27 +6033,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6359962587894238808, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.24376
+      value: 41.792244
       objectReference: {fileID: 0}
     - target: {fileID: 6359962587894238808, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 39.1861
+      value: 45.475338
       objectReference: {fileID: 0}
     - target: {fileID: 6359962587894238808, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 75.79644
+      value: 72.9844
       objectReference: {fileID: 0}
     - target: {fileID: 6359962588015003242, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.24376
+      value: 41.792244
       objectReference: {fileID: 0}
     - target: {fileID: 6359962588015003242, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 39.1861
+      value: 45.475338
       objectReference: {fileID: 0}
     - target: {fileID: 6359962588015003242, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 75.79644
+      value: 72.9844
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359962588048201218, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_LookaheadIgnoreY
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359962588048201218, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_TrackedObjectOffset.x
+      value: -0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359962588048201218, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_TrackedObjectOffset.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6577506710031072493, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_AnchorMax.y
