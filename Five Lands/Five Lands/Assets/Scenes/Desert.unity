@@ -4178,7 +4178,7 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1452131534}
     m_Modifications:
     - target: {fileID: 135262, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_Name
@@ -4186,7 +4186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalScale.x
@@ -4202,15 +4202,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 181.24
+      value: 121.230484
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 48.17
+      value: 23.90688
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 214.98
+      value: 140.17497
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4218,15 +4218,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -4319,6 +4319,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4099890921740684, guid: 9d200fbd47e9c7f45ad54450ebd25b94, type: 3}
   m_PrefabInstance: {fileID: 926001398}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &927720508 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 495306, guid: 9acba46c6b93f214db55b213b2bb807b, type: 3}
+  m_PrefabInstance: {fileID: 901736032}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &950510610
 PrefabInstance:
@@ -4843,6 +4848,10 @@ PrefabInstance:
     - target: {fileID: 2227623911817592795, guid: 578ff7954dfd38f489dbd1a615436be9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6694274816353809284, guid: 578ff7954dfd38f489dbd1a615436be9, type: 3}
+      propertyPath: shoutDistance
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7596840158405909397, guid: 578ff7954dfd38f489dbd1a615436be9, type: 3}
       propertyPath: uniqueIdentifier
@@ -5941,7 +5950,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5946933557964072554, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -570.75
+      value: -570.75006
       objectReference: {fileID: 0}
     - target: {fileID: 5992850091523247708, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_AnchorMax.y
@@ -7784,6 +7793,7 @@ Transform:
   - {fileID: 527576820}
   - {fileID: 1873680140}
   - {fileID: 1912787909}
+  - {fileID: 927720508}
   m_Father: {fileID: 1318775204}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10249,5 +10259,5 @@ Transform:
   - {fileID: 1034596535}
   - {fileID: 1381474892}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

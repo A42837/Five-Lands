@@ -40,7 +40,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.5
+  m_Radius: 0.74
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0.89, z: 0}
@@ -74,6 +74,10 @@ MonoBehaviour:
   PatrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
+  shoutDistance: 5
+  amIAggressive: 1
+  amIADragon: 0
+  dragonRangedAttack: {fileID: 0}
   patrolSpeedFraction: 0.2
 --- !u!1 &7891788981645717827
 GameObject:
@@ -252,7 +256,7 @@ PrefabInstance:
     - target: {fileID: 5808392756671440578, guid: eae7487b031240d4584bc8d093ebe124, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: ab50fc4b474a4a34d9a25f61cec1ea35, type: 2}
+      objectReference: {fileID: 9100000, guid: 457b7713aab542d47abe8b20399110e6, type: 2}
     - target: {fileID: 5926280789322140242, guid: eae7487b031240d4584bc8d093ebe124, type: 3}
       propertyPath: m_RootOrder
       value: 1
