@@ -42,6 +42,7 @@ namespace RPG.Movement{
             navMeshAgent.destination = destination;
             navMeshAgent.speed = maxSpeed * Mathf.Clamp01(speedFraction);
             navMeshAgent.isStopped = false;
+            //GetComponent<RPG.Control.CameraScript>().OnclickSetCameraRotation();
         }
 
         public void Cancel(){
