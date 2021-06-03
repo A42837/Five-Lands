@@ -20,6 +20,7 @@ namespace RPG.Attributes
         {
             //0:0 quer dizer que a primeira variavel depois da virgula, vai ser mostrada com 0 casas decimais !
             GetComponent<Text>().text = string.Format("{0:0}/{1:0}", health.GetHealthPoints(), health.GetMaxHealthPoints() );
+            
         }
 
 
