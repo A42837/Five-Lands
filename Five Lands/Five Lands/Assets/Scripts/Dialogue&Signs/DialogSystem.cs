@@ -7,6 +7,7 @@ public class DialogSystem : MonoBehaviour
 {
 
     public Conversation conversation;
+    public Animator actionBarAnimator;
     Coroutine typing;
 
     Queue<string> lines;
@@ -23,6 +24,7 @@ public class DialogSystem : MonoBehaviour
         }
 
         GetComponentInChildren<Animator>().SetBool("onScreen", lines.Count > 0);
+        actionBarAnimator.SetBool("isVisible", false);
 
         if(lines.Count > 0){
             typing = StartCoroutine(TypeText(lines.Dequeue()));
@@ -40,5 +42,6 @@ public class DialogSystem : MonoBehaviour
 
     public void EndAConversation(){
         GetComponentInChildren<Animator>().SetBool("onScreen", false);
+        actionBarAnimator.SetBool("isVisible", true);
     }
 }
