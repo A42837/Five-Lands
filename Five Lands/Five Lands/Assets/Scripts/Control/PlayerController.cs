@@ -75,6 +75,10 @@ namespace RPG.Control
             {
                 actionStore.Use(1, gameObject);
             }
+            if (Input.GetKeyDown(KeyCode.Alpha3))
+            {
+                actionStore.Use(2, gameObject);
+            }
         }
 
         //posso por exemplo  ter uma porta, que e um component, que reporta um icone diferente ! que responde a raycastable, da mesma maneira 

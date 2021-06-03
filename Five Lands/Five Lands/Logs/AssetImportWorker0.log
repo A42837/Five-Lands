@@ -1,290 +1,40 @@
 Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'en' Physical Memory: 8130 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-/Applications/Unity/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
+C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50906
-Successfully changed project path to: /Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
-/Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands
+63344
+Successfully changed project path to: C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
+C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 126.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 114.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/joaodospassos/Documents/GitHub/Five-Lands/Five Lands/Five Lands/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Trabalho/Documents/6S/PJ/Five Lands/Five Lands/Five Lands/Assets
 GfxDevice: creating device client; threaded=0
-2021-06-03 21:30:40.205 Unity[4311:143621] Color LCD preferred device: NVIDIA GeForce GT 750M (high power)
-2021-06-03 21:30:40.205 Unity[4311:143621] Metal devices available: 2
-2021-06-03 21:30:40.205 Unity[4311:143621] 0: NVIDIA GeForce GT 750M (high power)
-2021-06-03 21:30:40.206 Unity[4311:143621] 1: Intel Iris Pro Graphics (low power)
-2021-06-03 21:30:40.206 Unity[4311:143621] Using device NVIDIA GeForce GT 750M (high power)
-Initializing Metal device caps: NVIDIA GeForce GT 750M
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 (ID=0x11c0)
+    Vendor:   
+    VRAM:     1998 MB
+    Driver:   27.21.14.5671
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
-Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56311
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56696
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000560 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 115.63 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.077 seconds
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.001557 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 122.10 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.340 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2388 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 281.3 MB.
-System memory in use after: 281.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2852.
-Total: 3.147528 ms (FindLiveObjects: 0.386850 ms CreateObjectMapping: 0.184356 ms MarkObjects: 2.355203 ms  DeleteObjects: 0.219067 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Game/UI/Inventory/ActionBarOff.anim
-  artifactKey: Guid(72a1dba214eca4516ad15418fd046e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/Inventory/ActionBarOff.anim using Guid(72a1dba214eca4516ad15418fd046e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b140916b87b49bcc8a93947f4064939') in 0.283458 seconds
-  Import took 0.292103 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.178879 seconds.
-  path: Assets/Game/UI/Inventory/ActionBarAnimator.controller
-  artifactKey: Guid(67a62d60945044e898f01c4f4187d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/Inventory/ActionBarAnimator.controller using Guid(67a62d60945044e898f01c4f4187d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b57de208b44087978328128a9932881') in 0.175568 seconds
-  Import took 0.181449 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001484 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 282.4 MB.
-System memory in use after: 282.6 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2852.
-Total: 2.739719 ms (FindLiveObjects: 0.328066 ms CreateObjectMapping: 0.114328 ms MarkObjects: 2.152788 ms  DeleteObjects: 0.143217 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002337 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.086 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2253 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 282.9 MB.
-System memory in use after: 283.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2852.
-Total: 3.792089 ms (FindLiveObjects: 0.527654 ms CreateObjectMapping: 0.186336 ms MarkObjects: 2.885891 ms  DeleteObjects: 0.189241 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 519.382147 seconds.
-  path: Assets/Game/UI/Inventory/ActionBarOff.anim
-  artifactKey: Guid(72a1dba214eca4516ad15418fd046e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/Inventory/ActionBarOff.anim using Guid(72a1dba214eca4516ad15418fd046e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15dfeb4838052446fa194463a91e3a0') in 0.016062 seconds
-  Import took 0.022817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012721 seconds.
-  path: Assets/Game/UI/Inventory/ActionBarOff.anim
-  artifactKey: Guid(72a1dba214eca4516ad15418fd046e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/Inventory/ActionBarOff.anim using Guid(72a1dba214eca4516ad15418fd046e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15dfeb4838052446fa194463a91e3a0') in 0.002736 seconds
-  Import took 0.007518 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.436637 seconds.
-  path: Assets/Game/UI/Inventory/ActionBarOn.anim
-  artifactKey: Guid(717a53ecbf7c844a8bc38be65a282941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/Inventory/ActionBarOn.anim using Guid(717a53ecbf7c844a8bc38be65a282941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0bd97c29dc278874e5d2063a79436b') in 0.003171 seconds
-  Import took 0.008610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016484 seconds.
-  path: Assets/Game/UI/Inventory/ActionBarOn.anim
-  artifactKey: Guid(717a53ecbf7c844a8bc38be65a282941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/Inventory/ActionBarOn.anim using Guid(717a53ecbf7c844a8bc38be65a282941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab0bd97c29dc278874e5d2063a79436b') in 0.003077 seconds
-  Import took 0.009282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.844952 seconds.
-  path: Assets/Game/UI/Inventory/ActionBarAnimator.controller
-  artifactKey: Guid(67a62d60945044e898f01c4f4187d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/Inventory/ActionBarAnimator.controller using Guid(67a62d60945044e898f01c4f4187d17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f85ca8a5321b92f6053c9fd1c3e2d6') in 0.005439 seconds
-  Import took 0.011343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.836685 seconds.
-  path: Assets/Game/UI/HealthBar
-  artifactKey: Guid(ef2aefe69c8384722b93c79881a7ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/HealthBar using Guid(ef2aefe69c8384722b93c79881a7ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d36911fb35122deb01e5ee44ea2ca2c') in 0.001191 seconds
-  Import took 0.006429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.124963 seconds.
-  path: Assets/Game/UI/HealthBar/HealtBar_back.png
-  artifactKey: Guid(2c532570b5600489697cd3d47149f869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/HealthBar/HealtBar_back.png using Guid(2c532570b5600489697cd3d47149f869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e24231e644dfc9be28301bff1c5dc43c') in 0.357618 seconds
-  Import took 0.363796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Game/UI/HealthBar/HealtBar_border.png
-  artifactKey: Guid(cca7c140cd54943329cd2a9ecaf0c7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/HealthBar/HealtBar_border.png using Guid(cca7c140cd54943329cd2a9ecaf0c7c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2707396cf13bdaf3bcebf7bd9fd0d55d') in 0.010184 seconds
-  Import took 0.015603 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Game/UI/HealthBar/Health.png
-  artifactKey: Guid(f957d9d63ed3c4ee58351b80a5490d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/UI/HealthBar/Health.png using Guid(f957d9d63ed3c4ee58351b80a5490d95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f09b59af3c31b90bcb44c439f2b532') in 0.011163 seconds
-  Import took 0.015829 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001521 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.158 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 291.0 MB.
-System memory in use after: 291.1 MB.
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2861.
-Total: 2.785140 ms (FindLiveObjects: 0.324006 ms CreateObjectMapping: 0.118316 ms MarkObjects: 2.162459 ms  DeleteObjects: 0.179065 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 281.601022 seconds.
-  path: Assets/Scripts/Attributes/PlayerHealthBar.cs
-  artifactKey: Guid(93ce0c5922a8f457c847e1404afbb0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Attributes/PlayerHealthBar.cs using Guid(93ce0c5922a8f457c847e1404afbb0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05e6dd60a16d3d3e98b03cdda6f3c71') in 0.289252 seconds
-  Import took 0.297251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 450.904214 seconds.
-  path: Assets/Game/Core/Core.prefab
-  artifactKey: Guid(1b23371b5dd3fec4fbfab7d7469e7a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Core/Core.prefab using Guid(1b23371b5dd3fec4fbfab7d7469e7a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1431ffb0ee2fd6bf415b7c767c0c924f') in 0.938228 seconds
-  Import took 0.970762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.072771 seconds.
-  path: Assets/Game/Core/New Core/Core.prefab
-  artifactKey: Guid(141d497a23117416aa790a3f9b13c643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Core/New Core/Core.prefab using Guid(141d497a23117416aa790a3f9b13c643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb4d36f73e77d10d7f626f9dc58398c') in 0.125680 seconds
-  Import took 0.136844 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002138 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.323 seconds
-Platform modules already initialized, skipping
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 1.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 318.6 MB.
-System memory in use after: 318.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2908.
-Total: 3.029934 ms (FindLiveObjects: 0.367581 ms CreateObjectMapping: 0.153151 ms MarkObjects: 2.304318 ms  DeleteObjects: 0.202407 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.675676 seconds.
-  path: Assets/Game/Core/New Core/Core 1.prefab
-  artifactKey: Guid(e62de483e94bd4d7fa7bbeb02e603352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Core/New Core/Core 1.prefab using Guid(e62de483e94bd4d7fa7bbeb02e603352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abc5f3b0f23e76a75f87cdc90293796') in 0.461271 seconds
-  Import took 0.472759 seconds .
-

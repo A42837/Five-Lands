@@ -16,12 +16,13 @@ namespace RPG.Control
 
         void Update()
         {
-            /*if (Input.GetKeyDown(KeyCode.C))
+            //util para debug, para ver as animacoes estao em ordem, etc...
+            if (Input.GetKeyDown(KeyCode.C))
             {
                 //print("CAMERA SWITCH");
                 cameraTop.enabled = !cameraTop.enabled;
                 cameraThird.enabled = !cameraThird.enabled;
-            }*/
+            }
 
             if (Input.GetKey(KeyCode.E)){
                 look.transform.Rotate(Vector3.up * turnSpeed * Time.deltaTime); // = Quaternion.Euler(turnSpeed, 0.0f, gameObject.transform.rotation.z * -1.0f);
