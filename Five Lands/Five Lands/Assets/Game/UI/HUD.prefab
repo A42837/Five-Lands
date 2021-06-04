@@ -704,7 +704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4705130595240721424
 RectTransform:
   m_ObjectHideFlags: 0
@@ -832,6 +832,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   conversation: {fileID: 0}
+  actionBarAnimator: {fileID: 0}
 --- !u!95 &257760853979205278
 Animator:
   serializedVersion: 3

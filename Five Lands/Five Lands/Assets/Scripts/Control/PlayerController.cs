@@ -57,7 +57,7 @@ namespace RPG.Control
 
             //prioridades são: ataco primeiro, caso nao seja atacável, desloco-me para esse sitio
             if( WASDMove() ) return;
-            if (InteractWithMovement()) ;
+            if (InteractWithMovement());
             //if (InteractWithMovement()) return ;
             //print("Nothing to do ");
 
