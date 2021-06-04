@@ -272,3 +272,45 @@ System memory in use after: 148.2 MB.
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2857.
 Total: 4.536600 ms (FindLiveObjects: 0.545600 ms CreateObjectMapping: 0.313100 ms MarkObjects: 3.495900 ms  DeleteObjects: 0.179500 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001796 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.359 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 6.95 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2254 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 148.0 MB.
+System memory in use after: 148.2 MB.
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2857.
+Total: 10.020500 ms (FindLiveObjects: 0.538000 ms CreateObjectMapping: 0.868100 ms MarkObjects: 8.437000 ms  DeleteObjects: 0.174700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2484.221318 seconds.
+  path: Assets/Scenes/Sandbox.unity
+  artifactKey: Guid(e878fd46c1822444a8f7f3b098657285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Sandbox.unity using Guid(e878fd46c1822444a8f7f3b098657285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7ad5098b6a4abdb1e6e18230a97493') in 0.239533 seconds
+  Import took 0.329183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015133 seconds.
+  path: Assets/Scenes/Artic.unity
+  artifactKey: Guid(9dc4b32a56b56ff4290ce5e6d09776de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Artic.unity using Guid(9dc4b32a56b56ff4290ce5e6d09776de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68931d32712caad5a5ed4eef8f280fb9') in 0.081791 seconds
+  Import took 0.154067 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

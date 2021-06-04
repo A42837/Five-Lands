@@ -998,7 +998,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5946933557964072554, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_AnchoredPosition.y
+<<<<<<< HEAD
       value: -570.75
+=======
+      value: -570.7495
+>>>>>>> parent of fea97f0c (mais cenas lmao)
       objectReference: {fileID: 0}
     - target: {fileID: 5992850091523247708, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1090,6 +1094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6359962587894238808, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: 54.8404
       objectReference: {fileID: 0}
     - target: {fileID: 6359962587894238808, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
@@ -1167,6 +1172,29 @@ PrefabInstance:
     - target: {fileID: 6359962588048201218, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_ScreenY
       value: 0.6113037
+=======
+      value: 56.492245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359962587894238808, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.5084
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359962587894238808, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 62.69622
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359962588015003242, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 56.492245
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359962588015003242, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 30.5084
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359962588015003242, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 62.69622
+>>>>>>> parent of fea97f0c (mais cenas lmao)
       objectReference: {fileID: 0}
     - target: {fileID: 6359962588048201218, guid: 1b23371b5dd3fec4fbfab7d7469e7a58, type: 3}
       propertyPath: m_CameraDistance
